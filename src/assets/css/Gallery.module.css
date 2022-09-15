@@ -1,0 +1,15 @@
+.container {
+  color: black;
+}
+
+.image {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.image:hover {
+  width: 255px;
+  height: 255px;
+}
