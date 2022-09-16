@@ -13,98 +13,87 @@ function Gallery() {
       {/* component - navigation end */}
 
       {/* page - gallery start */}
-      <div className={styles.container}>
+      <div>
         {/* title start */}
         <h6>Mini Gallery</h6>
         {/* title end */}
 
         {/* container photos start */}
-        <div className="row text-center">
-          {/* photos - row 01 start */}
-          <div className="col">
-            <img
-              className={styles.image}
-              src="https://res.cloudinary.com/biandamara/image/upload/v1663246238/Portfolio%20Web/Gallery/Image_01_m3imfg.jpg"
-              alt="Image 01"
-              aria-hidden
-            />
+        <div className="container">
+          <div className="row row-cols-2 row-cols-lg-5 g-2 g-lg-3 text-center">
+            <div className="col">
+              <img
+                className={`${styles.image}`}
+                src="https://res.cloudinary.com/biandamara/image/upload/v1663246238/Portfolio%20Web/Gallery/Image_01_m3imfg.jpg"
+                alt="Image 01"
+                aria-hidden
+              />
+            </div>
+            <div className="col">
+              <img
+                className={`${styles.image}`}
+                src="https://res.cloudinary.com/biandamara/image/upload/v1663246232/Portfolio%20Web/Gallery/Image_02_ygxwlk.jpg"
+                alt="Image 02"
+                aria-hidden
+              />
+            </div>
+            <div className="col">
+              <img
+                className={`${styles.image}`}
+                src="https://res.cloudinary.com/biandamara/image/upload/v1663246233/Portfolio%20Web/Gallery/Image_03_vh5mgv.jpg"
+                alt="Image 03"
+                aria-hidden
+              />
+            </div>
+            <div className="col">
+              <img
+                className={`${styles.image}`}
+                src="https://res.cloudinary.com/biandamara/image/upload/v1663246239/Portfolio%20Web/Gallery/Image_04_ljqw2u.jpg"
+                alt="Image 04"
+                aria-hidden
+              ></img>
+            </div>
+            <div className="col">
+              <img
+                className={`${styles.image}`}
+                src="https://res.cloudinary.com/biandamara/image/upload/v1663246234/Portfolio%20Web/Gallery/Image_05_ilaxrf.jpg"
+                alt="Image 05"
+                aria-hidden
+              ></img>
+            </div>
+            <div className="col">
+              <img
+                className={`${styles.image}`}
+                src="https://res.cloudinary.com/biandamara/image/upload/v1663246232/Portfolio%20Web/Gallery/Image_06_rx7f2q.jpg"
+                alt="Image 06"
+                aria-hidden
+              ></img>
+            </div>
+            <div className="col">
+              <img
+                className={`${styles.image}`}
+                src="https://res.cloudinary.com/biandamara/image/upload/v1663246239/Portfolio%20Web/Gallery/Image_07_krwqjn.jpg"
+                alt="Image 07"
+                aria-hidden
+              ></img>
+            </div>
+            <div className="col">
+              <img
+                className={`${styles.image}`}
+                src="https://res.cloudinary.com/biandamara/image/upload/v1663246234/Portfolio%20Web/Gallery/Image_08_wdtlmo.jpg"
+                alt="Image 08"
+                aria-hidden
+              ></img>
+            </div>
+            <div className="col">
+              <img
+                className={`${styles.image}`}
+                src="https://res.cloudinary.com/biandamara/image/upload/v1663246235/Portfolio%20Web/Gallery/Image_09_ggtc36.jpg"
+                alt="Image 09"
+                aria-hidden
+              ></img>
+            </div>
           </div>
-          <div className="col">
-            <img
-              className={styles.image}
-              src="https://res.cloudinary.com/biandamara/image/upload/v1663246232/Portfolio%20Web/Gallery/Image_02_ygxwlk.jpg"
-              alt="Image 02"
-              aria-hidden
-            />
-          </div>
-          <div className="col">
-            <img
-              className={styles.image}
-              src="https://res.cloudinary.com/biandamara/image/upload/v1663246233/Portfolio%20Web/Gallery/Image_03_vh5mgv.jpg"
-              alt="Image 03"
-              aria-hidden
-            />
-          </div>
-        </div>
-        {/* ptos - row 01 end */}
-
-        {/* photos - row 02 start */}
-        <div className="row text-center">
-          <div className="col">
-            <img
-              className={styles.image}
-              src="https://res.cloudinary.com/biandamara/image/upload/v1663246239/Portfolio%20Web/Gallery/Image_04_ljqw2u.jpg"
-              alt="Image 04"
-              aria-hidden
-            ></img>
-          </div>
-          <div className="col">
-            <img
-              className={styles.image}
-              src="https://res.cloudinary.com/biandamara/image/upload/v1663246234/Portfolio%20Web/Gallery/Image_05_ilaxrf.jpg"
-              alt="Image 05"
-              aria-hidden
-            ></img>
-          </div>
-          <div className="col">
-            <img
-              className={styles.image}
-              src="https://res.cloudinary.com/biandamara/image/upload/v1663246232/Portfolio%20Web/Gallery/Image_06_rx7f2q.jpg"
-              alt="Image 06"
-              aria-hidden
-            ></img>
-          </div>
-        </div>
-        {/* photos - row 02 end */}
-
-        {/* photos - row 03 start */}
-        <div className="row text-center">
-          <div className="col">
-            <img
-              className={styles.image}
-              src="https://res.cloudinary.com/biandamara/image/upload/v1663246239/Portfolio%20Web/Gallery/Image_07_krwqjn.jpg"
-              alt="Image 07"
-              aria-hidden
-            ></img>
-          </div>
-          <div className="col">
-            <img
-              className={styles.image}
-              src="https://res.cloudinary.com/biandamara/image/upload/v1663246234/Portfolio%20Web/Gallery/Image_08_wdtlmo.jpg"
-              alt="Image 08"
-              aria-hidden
-            ></img>
-          </div>
-          <div className="col">
-            <img
-              className={styles.image}
-              src="https://res.cloudinary.com/biandamara/image/upload/v1663246235/Portfolio%20Web/Gallery/Image_09_ggtc36.jpg"
-              alt="Image 09"
-              aria-hidden
-            ></img>
-          </div>
-
-          {/* photos - row 03 end*/}
         </div>
         {/* container photos end */}
       </div>

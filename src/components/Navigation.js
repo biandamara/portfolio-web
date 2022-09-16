@@ -1,11 +1,13 @@
 // import styles
-// import styles from "../assets/css/Navigation.module.css";
+import styles from "../assets/css/Navigation.module.css";
 
 function Navigation() {
   return (
     <>
       {/* navigation bar start */}
-      <nav className="navbar navbar-expand-sm sticky-top bg-light">
+      <nav
+        className={`navbar navbar-expand-sm sticky-top ${styles.navigation}`}
+      >
         <div className="container-fluid">
           {/* brand start */}
           <a className="navbar-brand" href="/">
