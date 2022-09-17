@@ -1,27 +1,29 @@
-@import url("https://fonts.googleapis.com/css2?family=Caveat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;1,100&display=swap");
 
-.screen {
-  background-color: white;
-  min-height: 100vh;
+.background {
+  background-color: black;
   justify-content: center;
   align-content: center;
   align-items: center;
   display: flex;
 }
 
-.bacrground {
-  background-color: rgba(0, 0, 0, 0.5);
-  height: 100px;
-  width: 250px;
-  justify-content: center;
-  align-content: center;
-  align-items: center;
+.box {
+  /* background-color: rgb(255, 255, 255, 0.2); */
+  /* backdrop-filter: blur(5px); */
+  height: 200px;
+  width: 200px;
+  /* justify-content: center; */
+  /* align-items: center; */
+  border: 1px solid white;
   display: flex;
-  backdrop-filter: blur(20px);
+  flex-direction: column;
 }
 
-h1 {
-  font-family: "Caveat", cursive;
-  font-size: 128px;
-  color: black;
+p {
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  color: white;
+  margin: 0;
+  padding: 5px 15px;
 }
