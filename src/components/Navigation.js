@@ -1,9 +1,6 @@
 // import styles
 import styles from "../assets/css/Navigation.module.css";
 
-// import scripts
-// import "https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js";
-
 function Navigation() {
   return (
     <>
