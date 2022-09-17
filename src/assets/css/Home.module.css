@@ -1,0 +1,20 @@
+.bg_container {
+  position: absolute;
+}
+
+.bg_left {
+  background-color: white;
+  height: 100vh;
+  width: 100vw;
+  z-index: -1;
+}
+
+.bg_right {
+  background-color: #cdc6bc;
+  height: 100vh;
+  width: 100vw;
+  z-index: -1;
+}
+
+.container {
+}

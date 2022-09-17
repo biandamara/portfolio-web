@@ -11,7 +11,10 @@ import Maintenance from "./pages/Maintenance";
 
 // impot styles
 import "bootstrap/dist/css/bootstrap.min.css";
-// import "./assets/css/Reset.css";
+import "./assets/css/Reset.css";
+
+// import scripts
+import "https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(

@@ -12,10 +12,12 @@ function Home() {
       <Navigation />
       {/* component - navigation end */}
 
+      {/* background start */}
+
+      {/* background end */}
+
       {/* page - home start */}
-      <div className={styles.container}>
-        <h6>Hi, my name is Bian Damara.</h6>
-      </div>
+      <div className={`container ${styles.container}`}></div>
       {/* page - home end */}
 
       {/* component - footer start */}

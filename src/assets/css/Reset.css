@@ -1,3 +1,4 @@
+/* ========== css reset ========== */
 html,
 body,
 div,
@@ -83,7 +84,7 @@ video {
   padding: 0;
   border: 0;
   font-size: 100%;
-  font: inherit;
+  /* font: inherit; */
   vertical-align: baseline;
 }
 
@@ -127,4 +128,13 @@ q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+}
+
+/* ========== font ========== */
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;1,100&display=swap");
+
+/* ========== navigation bar ========== */
+.navbar-toggler {
+  background-color: transparent;
+  border: 0;
 }
