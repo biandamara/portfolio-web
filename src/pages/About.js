@@ -8,19 +8,21 @@ import styles from "../assets/css/About.module.css";
 function About() {
   return (
     <>
-      {/* component - navigation start */}
-      <Navigation />
-      {/* component - navigation end */}
+      <div className={styles.page}>
+        {/* component - navigation start */}
+        <Navigation />
+        {/* component - navigation end */}
 
-      {/* page - about start */}
-      <div className={styles.background}>
-        <h1>About Me</h1>
+        {/* page - about start */}
+        <div className={`container ${styles.background}`}>
+          <h1>About</h1>
+        </div>
+        {/* page - about end */}
+
+        {/* component - footer start */}
+        <Footer />
+        {/* component - footer end */}
       </div>
-      {/* page - about end */}
-
-      {/* component - footer start */}
-      <Footer />
-      {/* component - footer end */}
     </>
   );
 }
