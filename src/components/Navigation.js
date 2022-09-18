@@ -11,7 +11,10 @@ function Navigation() {
         <div className="container-fluid">
           {/* brand start */}
           <a className="navbar-brand" href="/">
-            Loren Ipsum
+            <img
+              src="https://res.cloudinary.com/biandamara/image/upload/v1663500675/Portfolio%20Web/Icons/sun_vkjgox.png"
+              alt="sun"
+            ></img>
           </a>
           {/* brand end */}
 

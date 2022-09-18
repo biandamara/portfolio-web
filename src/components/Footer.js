@@ -5,7 +5,7 @@ function Footer() {
   return (
     <>
       {/* footer start */}
-      <div className={styles.footer}>
+      <footer className={styles.footer}>
         <div className="row text-center">
           <div className="col">
             {/* instagram start */}
@@ -42,7 +42,7 @@ function Footer() {
             {/* github end */}
           </div>
         </div>
-      </div>
+      </footer>
       {/* footer end */}
     </>
   );

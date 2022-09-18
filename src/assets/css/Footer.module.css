@@ -1,12 +1,13 @@
 .footer {
   background-color: rgb(255, 255, 255, 0.8);
   backdrop-filter: blur(10px);
-  text-align: center;
+  justify-content: center;
+  align-items: center;
   left: 0;
   bottom: 0;
+  height: 70px;
   width: 100%;
-  padding: 15px;
-  position: fixed;
+  display: flex;
 }
 
 .footer img {
