@@ -13,8 +13,8 @@ function About() {
       {/* component - navigation end */}
 
       {/* page - about start */}
-      <div className={styles.container}>
-        <h6>About Me</h6>
+      <div className={styles.background}>
+        <h1>About Me</h1>
       </div>
       {/* page - about end */}
 

@@ -13,7 +13,7 @@ function Gallery() {
       {/* component - navigation end */}
 
       {/* page - gallery start */}
-      <div>
+      <div className={styles.background}>
         {/* title start */}
         <h6>Mini Gallery</h6>
         {/* title end */}

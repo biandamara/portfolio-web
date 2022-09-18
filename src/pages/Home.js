@@ -13,7 +13,9 @@ function Home() {
       {/* component - navigation end */}
 
       {/* background start */}
-
+      <div className={styles.background}>
+        <h1>About Me</h1>
+      </div>
       {/* background end */}
 
       {/* page - home start */}

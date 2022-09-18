@@ -13,7 +13,7 @@ function Contact() {
       {/* component - navigation end */}
 
       {/* page - contact start */}
-      <div className={styles.container}>
+      <div className={styles.background}>
         <h6>Contact</h6>
       </div>
       {/* page - contact end */}

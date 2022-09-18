@@ -5,7 +5,7 @@ function Footer() {
   return (
     <>
       {/* footer start */}
-      <div className={` ${styles.footer}`}>
+      <div className={styles.footer}>
         <div className="row text-center">
           <div className="col">
             {/* instagram start */}
