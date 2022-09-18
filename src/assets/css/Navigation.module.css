@@ -1,12 +1,11 @@
 .navigation {
   background-color: rgb(255, 255, 255, 0.8);
   backdrop-filter: blur(10px);
-  height: 70px;
-  width: 70px;
+  height: 100%;
+  width: 100%;
 }
 
 .navigation img {
   height: 50px;
   width: 50px;
-  object-fit: cover;
 }

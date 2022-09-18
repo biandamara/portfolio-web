@@ -11,7 +11,7 @@ import Maintenance from "./pages/Maintenance";
 
 // impot styles
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./assets/css/Reset.css";
+import "./assets/css/Custom.css";
 
 // import scripts
 import "bootstrap/dist/js/bootstrap.min.js";

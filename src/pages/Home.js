@@ -15,6 +15,7 @@ function Home() {
       {/* background start */}
       <div className={`container ${styles.background}`}>
         <h1>Home</h1>
+        <hr />
       </div>
       {/* background end */}
 

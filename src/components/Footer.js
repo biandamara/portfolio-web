@@ -6,7 +6,7 @@ function Footer() {
     <>
       {/* footer start */}
       <footer className={styles.footer}>
-        <div className="row text-center">
+        <div className="row">
           <div className="col">
             {/* instagram start */}
             <a className="px-5" href="https://www.instagram.com/biandamara/">

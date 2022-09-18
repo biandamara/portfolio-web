@@ -13,8 +13,9 @@ function Contact() {
       {/* component - navigation end */}
 
       {/* page - contact start */}
-      <div className={styles.background}>
+      <div className={`container ${styles.background}`}>
         <h6>Contact</h6>
+        <hr />
       </div>
       {/* page - contact end */}
 

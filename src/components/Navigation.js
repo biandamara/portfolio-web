@@ -34,7 +34,7 @@ function Navigation() {
 
           {/* navigation menus start*/}
           <div className="collapse navbar-collapse" id="navbarNav">
-            <ul className="navbar-nav">
+            <ul className="navbar-nav text-center">
               <li className="nav-item">
                 <a className="nav-link active" aria-current="page" href="/home">
                   Home

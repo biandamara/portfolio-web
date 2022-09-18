@@ -7,19 +7,12 @@
 }
 
 .box {
-  /* background-color: rgb(255, 255, 255, 0.2); */
-  /* backdrop-filter: blur(5px); */
   height: 200px;
   width: 200px;
-  /* justify-content: center; */
-  /* align-items: center; */
   border: 1px solid black;
-  display: flex;
-  flex-direction: column;
 }
 
 .box p {
-  font-family: "Lato", sans-serif;
   font-size: 18px;
   color: black;
   padding: 10px;

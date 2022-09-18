@@ -15,6 +15,7 @@ function About() {
       {/* page - about start */}
       <div className={`container ${styles.background}`}>
         <h1>About</h1>
+        <hr />
       </div>
       {/* page - about end */}
 
