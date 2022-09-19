@@ -3,9 +3,6 @@ import { NavLink } from "react-router-dom";
 // import styles
 import styles from "../assets/css/Navigation.module.css";
 
-// import scripts
-import "../assets/scripts/Navigation.js";
-
 function Navigation() {
   return (
     <>
