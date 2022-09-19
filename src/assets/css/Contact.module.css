@@ -1,8 +1,24 @@
-.background {
+.container {
   background-color: white;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  font-family: "Figtree", sans-serif;
   height: 100vh;
   width: 100vw;
+}
+
+.container h1 {
+  font-size: 24px;
+  padding-bottom: 10px;
+}
+
+.contact {
+  font-family: "Roboto Mono", monospace;
+  font-size: 14px;
+}
+
+.social img {
+  height: 30px;
+  width: 30px;
 }

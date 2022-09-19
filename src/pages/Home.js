@@ -13,7 +13,7 @@ function Home() {
       {/* component - navigation end */}
 
       {/* background start */}
-      <div className={`container ${styles.background}`}>
+      <div className={`container ${styles.home}`}>
         <h1>Home</h1>
         <hr />
       </div>
