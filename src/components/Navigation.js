@@ -1,5 +1,10 @@
+import { NavLink } from "react-router-dom";
+
 // import styles
 import styles from "../assets/css/Navigation.module.css";
+
+// import scripts
+import "../assets/scripts/Navigation.js";
 
 function Navigation() {
   return (
@@ -36,36 +41,24 @@ function Navigation() {
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav text-center">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="/home">
+                <NavLink exact className="nav-link" to="/home">
                   Home
-                </a>
+                </NavLink>
               </li>
               <li>
-                <a
-                  className="nav-link active"
-                  // aria-current="page"
-                  href="/about"
-                >
+                <NavLink className="nav-link" to="/about">
                   About
-                </a>
+                </NavLink>
               </li>
               <li>
-                <a
-                  className="nav-link active"
-                  // aria-current="page"
-                  href="/gallery"
-                >
+                <NavLink className="nav-link" to="/gallery">
                   Gallery
-                </a>
+                </NavLink>
               </li>
               <li>
-                <a
-                  className="nav-link active"
-                  // aria-current="page"
-                  href="/contact"
-                >
+                <NavLink className="nav-link" to="/contact">
                   Contact
-                </a>
+                </NavLink>
               </li>
             </ul>
           </div>
