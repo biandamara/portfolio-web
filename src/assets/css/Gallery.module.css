@@ -1,26 +1,17 @@
-.background {
-  background-color: white;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100vh;
-  width: 100vw;
+.container {
+  column-count: 3;
+  column-gap: 10px;
 }
 
-.gallery h1 {
-  font-size: 48px;
-}
-
-.image {
-  width: 250px;
-  height: 250px;
-  object-fit: cover;
+.container img {
+  max-width: 100%;
+  margin-bottom: 10px;
+  display: block;
 }
 
 /* media query */
 @media (max-width: 576px) {
-  .image {
-    width: 150px;
-    height: 150px;
+  .container {
+    column-count: 2;
   }
 }
