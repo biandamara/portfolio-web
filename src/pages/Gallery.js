@@ -13,9 +13,16 @@ function Gallery() {
       {/* component - navigation end */}
 
       {/* page - gallery start */}
-      <div className="container">
+      <div className={`container ${styles.gallery}`}>
         {/* title start */}
         <h1>Mini Gallery</h1>
+        <p>
+          A mountain isn’t incredibly pretty – it’s beautiful.
+          <br />
+          The shoes aren’t really expensive – they’re plush.
+        </p>
+        {/* <br />
+          The donuts aren’t exceedingly delicious – they’re delectable. */}
         <hr />
         {/* title end */}
 
