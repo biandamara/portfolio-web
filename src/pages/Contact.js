@@ -41,10 +41,10 @@ function Contact() {
                     alt="E-mail"
                   />
                 </div>
-                <p className="col">{"bian.damara[at]gmail.com"}</p>
+                <p className="col">{"E-mail"}</p>
               </div>
 
-              <div className="row row-cols-2 row-cols-lg-2 p-3 align-items-center">
+              <div className="row row-cols-2 row-cols-ms-2 row-cols-lg-2 p-3 align-items-center">
                 <div className="col-lg-1">
                   <img
                     src="https://res.cloudinary.com/biandamara/image/upload/v1663585013/Portfolio%20Web/Icons/instagram-round_mcalxj.png"
@@ -54,7 +54,7 @@ function Contact() {
                 <p className="col">Instagram</p>
               </div>
 
-              <div className="row row-cols-2 row-cols-lg-2 p-3 align-items-center">
+              <div className="row row-cols-2 row-cols-ms-2 row-cols-lg-2 p-3 align-items-center">
                 <div className="col-lg-1">
                   <img
                     src="https://res.cloudinary.com/biandamara/image/upload/v1663585012/Portfolio%20Web/Icons/linkedin-round_lltwik.png"

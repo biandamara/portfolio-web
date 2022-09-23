@@ -91,6 +91,69 @@ function Gallery() {
               aria-hidden
             ></img>
           </div>
+          <div className={styles.card}>
+            <img
+              src="https://res.cloudinary.com/biandamara/image/upload/v1663246241/Portfolio%20Web/Gallery/Image_10_zwsh4k.jpg"
+              alt="Image 10"
+              aria-hidden
+            ></img>
+          </div>
+          <div className={styles.card}>
+            <img
+              src="https://res.cloudinary.com/biandamara/image/upload/v1663246236/Portfolio%20Web/Gallery/Image_11_rjoe8i.jpg"
+              alt="Image 11"
+              aria-hidden
+            ></img>
+          </div>
+          <div className={styles.card}>
+            <img
+              src="https://res.cloudinary.com/biandamara/image/upload/v1663246235/Portfolio%20Web/Gallery/Image_12_g1n6lo.jpg"
+              alt="Image 12"
+              aria-hidden
+            ></img>
+          </div>
+          <div className={styles.card}>
+            <img
+              src="https://res.cloudinary.com/biandamara/image/upload/v1663246241/Portfolio%20Web/Gallery/Image_13_urodua.jpg"
+              alt="Image 13"
+              aria-hidden
+            ></img>
+          </div>
+          <div className={styles.card}>
+            <img
+              src="https://res.cloudinary.com/biandamara/image/upload/v1663246237/Portfolio%20Web/Gallery/Image_14_vgraey.jpg"
+              alt="Image 14"
+              aria-hidden
+            ></img>
+          </div>
+          <div className={styles.card}>
+            <img
+              src="https://res.cloudinary.com/biandamara/image/upload/v1663246237/Portfolio%20Web/Gallery/Image_15_nhkb59.jpg"
+              alt="Image 15"
+              aria-hidden
+            ></img>
+          </div>
+          <div className={styles.card}>
+            <img
+              src="https://res.cloudinary.com/biandamara/image/upload/v1663246240/Portfolio%20Web/Gallery/Image_16_yujllo.jpg"
+              alt="Image 16"
+              aria-hidden
+            ></img>
+          </div>
+          <div className={styles.card}>
+            <img
+              src="https://res.cloudinary.com/biandamara/image/upload/v1663246239/Portfolio%20Web/Gallery/Image_17_keesni.jpg"
+              alt="Image 17"
+              aria-hidden
+            ></img>
+          </div>
+          <div className={styles.card}>
+            <img
+              src="https://res.cloudinary.com/biandamara/image/upload/v1663246238/Portfolio%20Web/Gallery/Image_18_utnl67.jpg"
+              alt="Image 18"
+              aria-hidden
+            ></img>
+          </div>
         </div>
         {/* container photos end */}
       </div>

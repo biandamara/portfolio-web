@@ -12,15 +12,19 @@ function Home() {
       <Navigation />
       {/* component - navigation end */}
 
-      {/* background start */}
-      <div className={`container ${styles.home}`}>
+      {/* header start */}
+      <div className={`container ${styles.header}`}>
         <h1>Home</h1>
         <hr />
       </div>
-      {/* background end */}
+      {/* hearder end */}
 
       {/* page - home start */}
-      <div className={`container ${styles.container}`}></div>
+      <div className={`container ${styles.page}`}>
+        <h1>Hi,</h1>
+        <h1>my name is</h1>
+        <h1>Bian Damara.</h1>
+      </div>
       {/* page - home end */}
 
       {/* component - footer start */}
