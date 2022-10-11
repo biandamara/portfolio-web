@@ -26,7 +26,18 @@ function Maintenance() {
       >
         {/* text start */}
         <div className={styles.box}>
-          <p>{"//"} coming soon</p>
+          <p>
+            {"//"} we're sorry!
+            <br />
+            <br />
+            <br />
+            this page is down
+            <br />
+            for maintenance.
+            <br />
+            <br />
+            {":("}
+          </p>
         </div>
         {/* text end */}
       </div>

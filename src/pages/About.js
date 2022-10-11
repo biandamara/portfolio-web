@@ -12,12 +12,28 @@ function About() {
       <Navigation />
       {/* component - navigation end */}
 
-      {/* page - about start */}
-      <div className={`container ${styles.about}`}>
-        <h1>About</h1>
-        <hr />
+      {/* body start */}
+      <div className={`${styles.body}`}>
+        {/* header start */}
+        <div className={`container ${styles.header}`}>
+          <h1>About</h1>
+          <hr />
+        </div>
+        {/* header end */}
+
+        {/* content start */}
+        <div className={`container ${styles.content}`}>
+          <h1>So, how am I?</h1>
+          <br />
+          <p>
+            "I'm a psychology graduate who is interested in learning about human
+            behavior and technology. My hobby is photography. landscape
+            photography and street photography."
+          </p>
+        </div>
+        {/* content end */}
       </div>
-      {/* page - about end */}
+      {/* body end */}
 
       {/* component - footer start */}
       <Footer />

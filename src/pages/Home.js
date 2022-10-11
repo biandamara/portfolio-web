@@ -21,9 +21,8 @@ function Home() {
 
       {/* page - home start */}
       <div className={`container ${styles.page}`}>
-        <h1>Hi,</h1>
-        <h1>my name is</h1>
-        <h1>Bian Damara.</h1>
+        <p>Hi, my name is...</p>
+        <h1>Bian Damara</h1>
       </div>
       {/* page - home end */}
 
