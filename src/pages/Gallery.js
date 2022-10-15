@@ -8,26 +8,26 @@ import styles from "../assets/css/Gallery.module.css";
 function Gallery() {
   return (
     <>
-      {/* component - navigation start */}
+      {/* component - navigation - start */}
       <Navigation />
-      {/* component - navigation end */}
+      {/* component - navigation - end */}
 
-      {/* page - gallery start */}
-      <div className={`container ${styles.gallery}`}>
-        {/* title start */}
-        <h1>Mini Gallery</h1>
-        <p>
-          A mountain isn’t incredibly pretty – it’s beautiful.
-          <br />
-          The shoes aren’t really expensive – they’re plush.
-        </p>
-        {/* <br />
-          The donuts aren’t exceedingly delicious – they’re delectable. */}
-        <hr />
-        {/* title end */}
+      {/* body - start */}
+      <body className={`${styles.body}`}>
+        {/* header - start */}
+        <header className={`container`}>
+          <h1>Mini Gallery</h1>
+          <p>
+            A mountain isn’t incredibly pretty – it’s beautiful.
+            <br />
+            The shoes aren’t really expensive – they’re plush.
+          </p>
+          <hr />
+        </header>
+        {/* header - end */}
 
-        {/* container photos start */}
-        <div className={styles.container}>
+        {/* content - start */}
+        <div className={`container ${styles.content}`}>
           <div className={styles.card}>
             <img
               src="https://res.cloudinary.com/biandamara/image/upload/v1663246238/Portfolio%20Web/Gallery/Image_01_m3imfg.jpg"
@@ -155,13 +155,13 @@ function Gallery() {
             ></img>
           </div>
         </div>
-        {/* container photos end */}
-      </div>
-      {/* page - gallery end */}
+        {/* content - end */}
+      </body>
+      {/* body -  end */}
 
-      {/* component - footer start */}
+      {/* component - footer -  start */}
       <Footer />
-      {/* component - footer end */}
+      {/* component - footer - end */}
     </>
   );
 }

@@ -1,29 +1,29 @@
-.gallery {
-  background-color: white;
+.body {
+  background-color: rgb(246, 247, 243);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   font-family: "Figtree", sans-serif;
-  /* height: 100vh;
-  width: 100vw; */
+  /* height: 100vh; */
+  width: 100vw;
 }
 
-.gallery h1 {
+header h1 {
   font-size: 24px;
   padding-bottom: 10px;
 }
 
-.gallery p {
+header p {
   font-family: "Roboto Mono", monospace;
   font-size: 14px;
 }
 
-.container {
+.content {
   column-count: 4;
   column-gap: 10px;
 }
 
-.container img {
+.content img {
   max-width: 100%;
   margin-bottom: 10px;
   display: block;
@@ -31,13 +31,13 @@
 
 /* media query */
 @media (max-width: 992px) {
-  .container {
+  .content {
     column-count: 3;
   }
 }
 
 @media (max-width: 768px) {
-  .container {
+  .content {
     column-count: 2;
   }
 }

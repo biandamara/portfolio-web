@@ -8,27 +8,32 @@ import styles from "../assets/css/Home.module.css";
 function Home() {
   return (
     <>
-      {/* component - navigation start */}
+      {/* component - navigation - start */}
       <Navigation />
-      {/* component - navigation end */}
+      {/* component - navigation - end */}
 
-      {/* header start */}
-      <div className={`container ${styles.header}`}>
-        <h1>Home</h1>
-        <hr />
-      </div>
-      {/* hearder end */}
+      {/* body - start */}
+      <body className={`${styles.body}`}>
+        {/* header - start */}
+        <div className={`container ${styles.header}`}>
+          <h1>Home</h1>
+          <hr />
+        </div>
+        {/* hearder - end */}
 
-      {/* page - home start */}
-      <div className={`container ${styles.page}`}>
-        <p>Hi, my name is...</p>
-        <h1>Bian Damara</h1>
-      </div>
-      {/* page - home end */}
+        {/* content - start */}
+        <div className={`container ${styles.content}`}>
+          <p>Hi, my name is...</p>
+          <br />
+          <h1>Bian Damara.</h1>
+        </div>
+        {/* content -  end */}
+      </body>
+      {/* body - end */}
 
-      {/* component - footer start */}
+      {/* component - footer - start */}
       <Footer />
-      {/* component - footer end */}
+      {/* component - footer - end */}
     </>
   );
 }

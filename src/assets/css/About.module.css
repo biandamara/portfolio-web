@@ -1,10 +1,10 @@
 .body {
-  background-color: white;
+  background-color: rgb(246, 247, 243);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
-  width: 100vw;
+  /* height: 100vh;
+  width: 100vw; */
 }
 
 .header h1 {
@@ -17,4 +17,23 @@
   font-family: "Roboto Mono", monospace;
   font-size: 48px;
   color: black;
+}
+
+.content p {
+  font-family: "Roboto Mono", monospace;
+  /* font-size: 48px; */
+  color: black;
+}
+
+.left img {
+  width: 100%;
+}
+
+.right b {
+  font-weight: bold;
+}
+
+.right .logos img {
+  margin: 20px;
+  height: 50px;
 }
