@@ -7,7 +7,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Gallery from "./pages/Gallery";
 import Contact from "./pages/Contact";
-import Maintenance from "./pages/Maintenance";
+// import Maintenance from "./pages/Maintenance";
 
 // impot styles
 import "bootstrap/dist/css/bootstrap.min.css";
