@@ -12,10 +12,10 @@ function Navigation() {
       >
         <div className={`container-fluid`}>
           {/* brand - start */}
-          <a className={`navbar-brand`} href="/">
+          <a className={`navbar-brand`} href={`/`}>
             <img
-              src="https://res.cloudinary.com/biandamara/image/upload/v1663500675/Portfolio%20Web/Icons/sun_vkjgox.png"
-              alt="sun"
+              src={`https://res.cloudinary.com/biandamara/image/upload/v1663500675/Portfolio%20Web/Icons/sun_vkjgox.png`}
+              alt={``}
             ></img>
           </a>
           {/* brand - end */}
@@ -23,12 +23,12 @@ function Navigation() {
           {/* hamburger button - start */}
           <button
             className={`navbar-toggler`}
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
+            type={`button`}
+            data-bs-toggle={`collapse`}
+            data-bs-target={`#navbarNav`}
+            aria-controls={`navbarNav`}
             aria-expanded="false"
-            aria-label="Toggle navigation"
+            aria-label={`Toggle navigation`}
           >
             <span className={`navbar-toggler-icon`}></span>
           </button>
@@ -45,34 +45,37 @@ function Navigation() {
                   exact
                   className={`nav-link`}
                   style={{ color: "#f6f6f3" }}
-                  to="/home"
+                  to={`/home`}
                 >
                   Home
                 </NavLink>
               </li>
+
               <li>
                 <NavLink
                   className={`nav-link`}
                   style={{ color: "#f6f6f3" }}
-                  to="/about"
+                  to={`/about`}
                 >
                   About
                 </NavLink>
               </li>
+
               <li>
                 <NavLink
                   className={`nav-link`}
                   style={{ color: "#f6f6f3" }}
-                  to="/gallery"
+                  to={`/gallery`}
                 >
                   Gallery
                 </NavLink>
               </li>
+
               <li>
                 <NavLink
                   className={`nav-link`}
                   style={{ color: "#f6f6f3" }}
-                  to="/contact"
+                  to={`/contact`}
                 >
                   Contact
                 </NavLink>

@@ -9,33 +9,36 @@ function Footer() {
         <div className={`row`}>
           <div className={`col`}>
             {/* instagram - start */}
-            <a className={`px-5`} href="https://www.instagram.com/biandamara/">
+            <a
+              className={`px-5`}
+              href={`https://www.instagram.com/biandamara/`}
+            >
               <img
-                src="https://res.cloudinary.com/biandamara/image/upload/v1663365224/Portfolio%20Web/Icons/instagram_npe7cg.png"
-                alt="Instagram"
+                src={`https://res.cloudinary.com/biandamara/image/upload/v1663365224/Portfolio%20Web/Icons/instagram_npe7cg.png`}
+                alt={``}
                 aria-hidden
               ></img>
-              {/* instagram - end */}
             </a>
+            {/* instagram - end */}
 
             {/* linkedin - start */}
             <a
               className={`px-5`}
-              href="https://www.linkedin.com/in/bian-damara-218270151/"
+              href={`https://www.linkedin.com/in/bian-damara-218270151/`}
             >
               <img
                 src="https://res.cloudinary.com/biandamara/image/upload/v1663365224/Portfolio%20Web/Icons/linkedin_cyfjuo.png"
-                alt="LinkedIn"
+                alt={``}
                 aria-hidden
               ></img>
             </a>
             {/* linkedin - end */}
 
             {/* github - start */}
-            <a className={`px-5`} href="https://github.com/biandamara">
+            <a className={`px-5`} href={`https://github.com/biandamara`}>
               <img
-                src="https://res.cloudinary.com/biandamara/image/upload/v1663365224/Portfolio%20Web/Icons/github_hzsub0.png"
-                alt="GitHub"
+                src={`https://res.cloudinary.com/biandamara/image/upload/v1663365224/Portfolio%20Web/Icons/github_hzsub0.png`}
+                alt={``}
                 aria-hidden
               ></img>
             </a>

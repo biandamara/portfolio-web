@@ -28,8 +28,8 @@ function About() {
               {/* content left side - start */}
               <div className={`col col-lg-4 ${styles.left}`}>
                 <img
-                  src="https://res.cloudinary.com/biandamara/image/upload/v1665939304/Portfolio%20Web/profile_k3pg7e.png"
-                  alt=""
+                  src={`https://res.cloudinary.com/biandamara/image/upload/v1665939304/Portfolio%20Web/profile_k3pg7e.png`}
+                  alt={``}
                 />
               </div>
               {/* content left side - end */}
@@ -37,14 +37,18 @@ function About() {
               {/* content right side - start */}
               <div className={`col col-lg-8 ${styles.right}`}>
                 <h2>Front-End Developer</h2>
+
                 <br />
                 <br />
                 <br />
+
                 <h1>Bian Damara</h1>
+
                 <br />
                 <br />
                 <br />
-                <p className="lh-base">
+
+                <p className={`lh-base`}>
                   I'm a Front-end Developer who has expertise in the use of
                   HTML, CSS, JavaScript, GIT, Node JS, Express JS, PostgreSQL,
                   React JS, Next JS, and Redux JS, and also always learning to
@@ -53,47 +57,49 @@ function About() {
                   excited when there is an opportunity to work on a project
                   around web development.
                 </p>
+
                 <br />
+
                 <div className={`text-center ${styles.logos}`}>
                   <img
-                    src="https://res.cloudinary.com/biandamara/image/upload/v1665735728/Portfolio%20Web/Icons/html_p9ksca.png"
-                    alt=""
+                    src={`https://res.cloudinary.com/biandamara/image/upload/v1665735728/Portfolio%20Web/Icons/html_p9ksca.png`}
+                    alt={``}
                   />
                   <img
-                    src="https://res.cloudinary.com/biandamara/image/upload/v1665735727/Portfolio%20Web/Icons/css_mfydus.png"
-                    alt=""
+                    src={`https://res.cloudinary.com/biandamara/image/upload/v1665735727/Portfolio%20Web/Icons/css_mfydus.png`}
+                    alt={``}
                   />
                   <img
-                    src="https://res.cloudinary.com/biandamara/image/upload/v1665735727/Portfolio%20Web/Icons/javascript_rn4mqp.png"
-                    alt=""
+                    src={`https://res.cloudinary.com/biandamara/image/upload/v1665735727/Portfolio%20Web/Icons/javascript_rn4mqp.png`}
+                    alt={``}
                   />
                   <img
-                    src="https://res.cloudinary.com/biandamara/image/upload/v1665735728/Portfolio%20Web/Icons/git_etdhqk.png"
-                    alt=""
+                    src={`https://res.cloudinary.com/biandamara/image/upload/v1665735728/Portfolio%20Web/Icons/git_etdhqk.png`}
+                    alt={``}
                   />
                   <img
-                    src="https://res.cloudinary.com/biandamara/image/upload/v1665735728/Portfolio%20Web/Icons/node_ufkqsb.png"
-                    alt=""
+                    src={`https://res.cloudinary.com/biandamara/image/upload/v1665735728/Portfolio%20Web/Icons/node_ufkqsb.png`}
+                    alt={``}
                   />
                   <img
-                    src="https://res.cloudinary.com/biandamara/image/upload/v1665735728/Portfolio%20Web/Icons/express_ek4xho.png"
-                    alt=""
+                    src={`https://res.cloudinary.com/biandamara/image/upload/v1665735728/Portfolio%20Web/Icons/express_ek4xho.png`}
+                    alt={``}
                   />
                   <img
-                    src="https://res.cloudinary.com/biandamara/image/upload/v1665735728/Portfolio%20Web/Icons/postgresql_h006xx.png"
-                    alt=""
+                    src={`https://res.cloudinary.com/biandamara/image/upload/v1665735728/Portfolio%20Web/Icons/postgresql_h006xx.png`}
+                    alt={``}
                   />
                   <img
-                    src="https://res.cloudinary.com/biandamara/image/upload/v1665735729/Portfolio%20Web/Icons/react_pw5srt.png"
-                    alt=""
+                    src={`https://res.cloudinary.com/biandamara/image/upload/v1665735729/Portfolio%20Web/Icons/react_pw5srt.png`}
+                    alt={``}
                   />
                   <img
-                    src="https://res.cloudinary.com/biandamara/image/upload/v1665735728/Portfolio%20Web/Icons/next_ul8vjc.png"
-                    alt=""
+                    src={`https://res.cloudinary.com/biandamara/image/upload/v1665735728/Portfolio%20Web/Icons/next_ul8vjc.png`}
+                    alt={``}
                   />
                   <img
-                    src="https://res.cloudinary.com/biandamara/image/upload/v1665735728/Portfolio%20Web/Icons/redux_gbcoub.png"
-                    alt=""
+                    src={`https://res.cloudinary.com/biandamara/image/upload/v1665735728/Portfolio%20Web/Icons/redux_gbcoub.png`}
+                    alt={``}
                   />
                 </div>
               </div>
@@ -108,18 +114,19 @@ function About() {
             <div className={`${styles.interest}`}>
               <h2>Interested</h2>
               <div className={`row row-cols-1 row-cols-lg-3 g-5`}>
+                {/* psychology - start */}
                 <div className={`col`}>
                   <hr />
                   <div className={`row  mb-3`}>
                     <h3 className={`col`}>Psychology</h3>
                     <div className={`col text-end`}>
                       <img
-                        src="https://res.cloudinary.com/biandamara/image/upload/v1665939993/Portfolio%20Web/Icons/psychology_nexc1x.png"
-                        alt=""
+                        src={`https://res.cloudinary.com/biandamara/image/upload/v1665939993/Portfolio%20Web/Icons/psychology_nexc1x.png`}
+                        alt={``}
                       />
                     </div>
                   </div>
-                  <p className="lh-base">
+                  <p className={`lh-base`}>
                     I'm a psychology graduate. I'm interested in studying human
                     behavior and the factors that influence it. Studying
                     psychology has helped me to understand myself better, and
@@ -129,19 +136,21 @@ function About() {
                     happier and not stressed.
                   </p>
                 </div>
+                {/* psychology - end */}
 
+                {/* treveling - start */}
                 <div className={`col`}>
                   <hr />
                   <div className={`row  mb-3`}>
                     <h3 className={`col`}>Traveling</h3>
                     <div className={`col text-end`}>
                       <img
-                        src="https://res.cloudinary.com/biandamara/image/upload/v1665939993/Portfolio%20Web/Icons/footstep_f7sv5i.png"
-                        alt=""
+                        src={`https://res.cloudinary.com/biandamara/image/upload/v1665939993/Portfolio%20Web/Icons/footstep_f7sv5i.png`}
+                        alt={``}
                       />
                     </div>
                   </div>
-                  <p className="lh-base">
+                  <p className={`lh-base`}>
                     The adventure of a lifetime or just wanting to connect with
                     someone new, traveling can be a very rewarding experience.
                     It's also something I can do casually, at my own pace, with
@@ -152,19 +161,21 @@ function About() {
                     travel is like for me: a journey.
                   </p>
                 </div>
+                {/* treveling - end */}
 
+                {/* photography - start */}
                 <div className={`col`}>
                   <hr />
                   <div className={`row  mb-3`}>
                     <h3 className={`col`}>Photography</h3>
                     <div className={`col text-end`}>
                       <img
-                        src="https://res.cloudinary.com/biandamara/image/upload/v1665939993/Portfolio%20Web/Icons/camera_fa9lpn.png"
-                        alt=""
+                        src={`https://res.cloudinary.com/biandamara/image/upload/v1665939993/Portfolio%20Web/Icons/camera_fa9lpn.png`}
+                        alt={``}
                       />
                     </div>
                   </div>
-                  <p className="lh-base">
+                  <p className={`lh-base`}>
                     Photography has always been one of my favorite hobbies. When
                     I take pictures, it's like seeing things from a new
                     perspective literally and figuratively. Thing about the
@@ -175,6 +186,7 @@ function About() {
                     open mind to the world.
                   </p>
                 </div>
+                {/* photography - end */}
               </div>
             </div>
             {/* content left side - end */}
