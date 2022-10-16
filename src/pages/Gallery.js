@@ -15,7 +15,7 @@ function Gallery() {
       {/* body - start */}
       <body className={`px-3 py-3 ${styles.body}`}>
         {/* header - start */}
-        <header className={`container`}>
+        <header className={`container ${styles.header}`}>
           <h3 className={`mb-3`}>Mini Gallery</h3>
           <p className={`lh-base`}>
             A mountain isn't incredibly pretty – it's beautiful.
