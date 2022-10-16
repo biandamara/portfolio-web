@@ -4,23 +4,23 @@ import styles from "../assets/css/Footer.module.css";
 function Footer() {
   return (
     <>
-      {/* footer start */}
+      {/* footer - start */}
       <footer className={styles.footer}>
-        <div className="row">
-          <div className="col">
-            {/* instagram start */}
-            <a className="px-5" href="https://www.instagram.com/biandamara/">
+        <div className={`row`}>
+          <div className={`col`}>
+            {/* instagram - start */}
+            <a className={`px-5`} href="https://www.instagram.com/biandamara/">
               <img
                 src="https://res.cloudinary.com/biandamara/image/upload/v1663365224/Portfolio%20Web/Icons/instagram_npe7cg.png"
                 alt="Instagram"
                 aria-hidden
               ></img>
-              {/* instagram end */}
+              {/* instagram - end */}
             </a>
 
-            {/* linkedin start */}
+            {/* linkedin - start */}
             <a
-              className="px-5"
+              className={`px-5`}
               href="https://www.linkedin.com/in/bian-damara-218270151/"
             >
               <img
@@ -29,21 +29,21 @@ function Footer() {
                 aria-hidden
               ></img>
             </a>
-            {/* linkedin end */}
+            {/* linkedin - end */}
 
-            {/* github start */}
-            <a className="px-5" href="https://github.com/biandamara">
+            {/* github - start */}
+            <a className={`px-5`} href="https://github.com/biandamara">
               <img
                 src="https://res.cloudinary.com/biandamara/image/upload/v1663365224/Portfolio%20Web/Icons/github_hzsub0.png"
                 alt="GitHub"
                 aria-hidden
               ></img>
             </a>
-            {/* github end */}
+            {/* github - end */}
           </div>
         </div>
       </footer>
-      {/* footer end */}
+      {/* footer - end */}
     </>
   );
 }

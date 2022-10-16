@@ -13,14 +13,14 @@ function Gallery() {
       {/* component - navigation - end */}
 
       {/* body - start */}
-      <body className={`${styles.body}`}>
+      <body className={`px-3 py-3 ${styles.body}`}>
         {/* header - start */}
         <header className={`container`}>
-          <h1>Mini Gallery</h1>
-          <p>
-            A mountain isn’t incredibly pretty – it’s beautiful.
+          <h3 className={`mb-3`}>Mini Gallery</h3>
+          <p className={`lh-base`}>
+            A mountain isn't incredibly pretty – it's beautiful.
             <br />
-            The shoes aren’t really expensive – they’re plush.
+            The shoes aren't really expensive – they're plush.
           </p>
           <hr />
         </header>

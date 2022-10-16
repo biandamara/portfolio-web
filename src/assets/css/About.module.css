@@ -1,5 +1,5 @@
 .body {
-  background-color: rgb(246, 247, 243);
+  background-color: rgb(23, 23, 26);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -8,32 +8,29 @@
 }
 
 .header h1 {
-  font-family: "Figtree", sans-serif;
-  font-size: 24px;
   padding-bottom: 10px;
 }
 
-.content h1 {
-  font-family: "Roboto Mono", monospace;
-  font-size: 48px;
-  color: black;
-}
-
 .content p {
-  font-family: "Roboto Mono", monospace;
-  /* font-size: 48px; */
-  color: black;
+  text-align: justify;
 }
 
 .left img {
   width: 100%;
 }
 
-.right b {
+.right h1 {
+  font-size: 64px;
   font-weight: bold;
+  letter-spacing: 5px;
 }
 
 .right .logos img {
   margin: 20px;
-  height: 50px;
+  height: 40px;
+}
+
+.interest img {
+  filter: invert(1);
+  height: 20px;
 }

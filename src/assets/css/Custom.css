@@ -134,6 +134,47 @@ table {
 font-family: "Lato", sans-serif;
 font-family: "Roboto Mono", monospace; */
 
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+hr {
+  color: #f6f6f3;
+  text-decoration: none;
+}
+
+h1 {
+  font-family: "Figtree", sans-serif;
+  font-size: 48px;
+}
+
+h2 {
+  font-family: "Figtree", sans-serif;
+  font-size: 36px;
+}
+
+h3 {
+  font-family: "Figtree", sans-serif;
+  font-size: 24px;
+}
+
+h4 {
+  font-family: "Figtree", sans-serif;
+  font-size: 18px;
+}
+
+h5 {
+  font-family: "Figtree", sans-serif;
+  font-size: 16px;
+}
+
+p {
+  font-family: "Roboto Mono", monospace;
+  font-size: 14px;
+}
+
 /* navigation bar */
 .navbar-toggler {
   background-color: transparent;

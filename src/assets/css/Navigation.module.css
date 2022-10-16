@@ -1,5 +1,5 @@
 .navigation {
-  background-color: rgb(246, 247, 243, 0.8);
+  background-color: rgba(23, 23, 26);
   backdrop-filter: blur(10px);
   font-family: "Figtree", sans-serif;
   font-weight: 400;
@@ -8,6 +8,7 @@
 }
 
 .navigation img {
+  filter: invert(1);
   height: 50px;
   width: 50px;
 }

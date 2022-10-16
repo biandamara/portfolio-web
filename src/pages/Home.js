@@ -13,19 +13,17 @@ function Home() {
       {/* component - navigation - end */}
 
       {/* body - start */}
-      <body className={`${styles.body}`}>
+      <body className={`px-3 py-3 ${styles.body}`}>
         {/* header - start */}
         <div className={`container ${styles.header}`}>
-          <h1>Home</h1>
+          <h3>Home</h3>
           <hr />
         </div>
         {/* hearder - end */}
 
         {/* content - start */}
         <div className={`container ${styles.content}`}>
-          <p>Hi, my name is...</p>
-          <br />
-          <h1>Bian Damara.</h1>
+          <h1>{"// Hello, World!"}</h1>
         </div>
         {/* content -  end */}
       </body>
