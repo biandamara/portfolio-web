@@ -120,7 +120,7 @@ function About() {
                     </div>
                   </div>
                   <p className="lh-base">
-                    I'm a psychology graduate. I'm interested in learning human
+                    I'm a psychology graduate. I'm interested in studying human
                     behavior and the factors that influence it. Studying
                     psychology has helped me to understand myself better, and
                     understand psychology why people act like they do in certain
@@ -144,11 +144,12 @@ function About() {
                   <p className="lh-base">
                     The adventure of a lifetime or just wanting to connect with
                     someone new, traveling can be a very rewarding experience.
-                    It's also something you can do casually, at your own pace,
-                    with the people you're friends with. The best travel
-                    experiences are those where you feel connected to people
-                    while you're on the road. That's what traveling is like to
-                    me: a journey.
+                    It's also something I can do casually, at my own pace, with
+                    the people I'm friends with. I also really enjoy visiting
+                    new places, learning local history and culture, and tasting
+                    local food. The best travel experiences are those where I
+                    feel connected to people while I'm on the road. That's what
+                    travel is like for me: a journey.
                   </p>
                 </div>
 
