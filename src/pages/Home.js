@@ -15,15 +15,30 @@ function Home() {
       {/* body - start */}
       <body className={`px-3 py-3 ${styles.body}`}>
         {/* header - start */}
-        <div className={`container ${styles.header}`}>
+        {/* <div className={`container ${styles.header}`}>
           <h3>Home</h3>
           <hr />
-        </div>
+        </div> */}
         {/* hearder - end */}
 
         {/* content - start */}
         <div className={`container ${styles.content}`}>
-          <h1>{"// Hello, World!"}</h1>
+          <h1>{"BIAN DAMARA"}</h1>
+
+          <br />
+
+          <hr />
+
+          <br />
+
+          <h3>Front-End Developer</h3>
+
+          <br />
+          <br />
+
+          <button>
+            <a href={`/about`}>Learn more</a>
+          </button>
         </div>
         {/* content -  end */}
       </body>

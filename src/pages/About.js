@@ -16,7 +16,7 @@ function About() {
       <body className={`px-3 py-3 ${styles.body}`}>
         {/* header - start */}
         <div className={`container ${styles.header}`}>
-          <h3>About</h3>
+          <h3>About Me</h3>
           <hr />
         </div>
         {/* header - end */}
@@ -42,7 +42,7 @@ function About() {
                 <br />
                 <br />
 
-                <h1>Bian Damara</h1>
+                <h1>BIAN DAMARA</h1>
 
                 <br />
                 <br />
