@@ -28,7 +28,7 @@ function Gallery() {
 
         {/* content - start */}
         <div className={`container ${styles.content}`}>
-          <div className={styles.card}>
+          <div className={`${styles.card}`}>
             <img
               src="https://res.cloudinary.com/biandamara/image/upload/v1663246238/Portfolio%20Web/Gallery/Image_01_m3imfg.jpg"
               alt="Image 01"

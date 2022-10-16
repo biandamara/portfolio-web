@@ -26,7 +26,7 @@ function Contact() {
           <div className={`row row-cols-1 row-cols-lg-2 g-5`}>
             {/* content left - start */}
             <div className="col">
-              <h2>Get in touch</h2>
+              <h2 className="">Get in touch</h2>
               <p className="lh-base">
                 You can contact me using this contact form below.
               </p>
@@ -55,7 +55,7 @@ function Contact() {
 
             {/* content right - start */}
             <div className={`col ${styles.contact}`}>
-              <h2 className="lh-base">For more information</h2>
+              <h2 className="">For more information</h2>
               <p className="lh-base">
                 Please go visit my social media account.
               </p>
