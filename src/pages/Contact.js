@@ -59,13 +59,14 @@ function Contact() {
               <p className="lh-base">
                 Please go visit my social media account.
               </p>
+              <br />
               <div className={`row ${styles.social}`}>
                 {/* link e-mail - start */}
                 <a
                   className="row row-cols-2 row-cols-lg-2 p-3 align-items-center"
                   href="mailto: bian.damara@gmail.com/"
                 >
-                  <div className={`col-sm-2 col-lg-2`}>
+                  <div className={`col-sm-2 col-lg-2 text-center`}>
                     <img
                       src="https://res.cloudinary.com/biandamara/image/upload/v1663585979/Portfolio%20Web/Icons/e-mail_cdxvra.png"
                       alt="E-mail"
@@ -80,7 +81,7 @@ function Contact() {
                   className="row row-cols-2 row-cols-ms-2 row-cols-lg-2 p-3 align-items-center"
                   href="https://www.instagram.com/biandamara/"
                 >
-                  <div className={`col-sm-2 col-lg-2`}>
+                  <div className={`col-sm-2 col-lg-2 text-center`}>
                     <img
                       src="https://res.cloudinary.com/biandamara/image/upload/v1663585013/Portfolio%20Web/Icons/instagram-round_mcalxj.png"
                       alt="Instagram"
@@ -95,7 +96,7 @@ function Contact() {
                   className="row row-cols-2 row-cols-ms-2 row-cols-lg-2 p-3 align-items-center"
                   href="https://www.linkedin.com/in/bian-damara-218270151/"
                 >
-                  <div className={`col-sm-2 col-lg-2`}>
+                  <div className={`col-sm-2 col-lg-2 text-center`}>
                     <img
                       src="https://res.cloudinary.com/biandamara/image/upload/v1663585012/Portfolio%20Web/Icons/linkedin-round_lltwik.png"
                       alt="LinkedIn"
@@ -110,7 +111,7 @@ function Contact() {
                   className="row row-cols-2 row-cols-lg-2 p-3 align-items-center"
                   href="https://github.com/biandamara"
                 >
-                  <div className={`col-sm-2 col-lg-2`}>
+                  <div className={`col-sm-2 col-lg-2 text-center`}>
                     <img
                       src="https://res.cloudinary.com/biandamara/image/upload/v1663585013/Portfolio%20Web/Icons/github-round_r5b7w8.png"
                       alt="GitHub"
