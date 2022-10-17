@@ -39,7 +39,9 @@ function Navigation() {
             className={`collapse navbar-collapse ${styles.menus}`}
             id="navbarNav"
           >
-            <ul className={`navbar-nav text-center`}>
+            <ul
+              className={`navbar-nav nav-pills card-header-pills text-center`}
+            >
               <li className={`nav-item`}>
                 <NavLink
                   exact

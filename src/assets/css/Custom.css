@@ -176,6 +176,14 @@ p {
 }
 
 /* navigation bar */
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  border-bottom: 1px solid #f6f6f3;
+}
+
 .navbar-toggler {
   background-color: transparent;
   border: 0;
