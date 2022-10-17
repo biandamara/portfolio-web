@@ -47,7 +47,7 @@ function Navigation() {
                   exact
                   className={`nav-link`}
                   style={{ color: "#f6f6f3" }}
-                  to={`/home`}
+                  to={`/`}
                 >
                   Home
                 </NavLink>
