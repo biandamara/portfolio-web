@@ -20,3 +20,10 @@
 .menus li {
   font-size: 18px;
 }
+
+@media (max-width: 575px) {
+  .menus li {
+    justify-content: center;
+    display: flex;
+  }
+}
