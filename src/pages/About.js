@@ -1,3 +1,6 @@
+import React, { useEffect } from "react";
+import AOS from "aos";
+
 // import components
 import Navigation from "../components/Navigation";
 import Footer from "../components/Footer";
@@ -6,6 +9,10 @@ import Footer from "../components/Footer";
 import styles from "../assets/css/About.module.css";
 
 function About() {
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
   return (
     <>
       {/* component - navigation - start */}
@@ -30,25 +37,45 @@ function About() {
                 <img
                   src={`https://res.cloudinary.com/biandamara/image/upload/v1665939304/Portfolio%20Web/profile_k3pg7e.png`}
                   alt={``}
+                  data-aos="zoom-out"
+                  data-aos-duration="1000"
                 />
               </div>
               {/* content left side - end */}
 
               {/* content right side - start */}
               <div className={`col col-lg-8 ${styles.right}`}>
-                <h2>Front-End Developer</h2>
+                {/* job title - start */}
+                <h2
+                  data-aos="fade-down"
+                  data-aos-duration="1000"
+                  data-aos-delay="1000"
+                >
+                  Front-End Developer
+                </h2>
+                {/* job title - end */}
 
                 <br />
                 <br />
                 <br />
 
-                <h1>BIAN DAMARA</h1>
+                {/* full name - start */}
+                <h1 data-aos="zoom-out" data-aos-duration="1000">
+                  BIAN DAMARA
+                </h1>
+                {/* full name - end */}
 
                 <br />
                 <br />
                 <br />
 
-                <p className={`lh-base`}>
+                {/* about me - start */}
+                <p
+                  className={`lh-base`}
+                  data-aos="zoom-out"
+                  data-aos-duration="1000"
+                  data-aos-delay="1000"
+                >
                   I'm a Front-end Developer who has expertise in the use of
                   HTML, CSS, JavaScript, GIT, Node JS, Express JS, PostgreSQL,
                   React JS, Next JS, and Redux JS, and also always learning to
@@ -57,6 +84,7 @@ function About() {
                   excited when there is an opportunity to work on a project
                   around web development.
                 </p>
+                {/* about me - end */}
 
                 <br />
 
@@ -64,42 +92,72 @@ function About() {
                   <img
                     src={`https://res.cloudinary.com/biandamara/image/upload/v1665735728/Portfolio%20Web/Icons/html_p9ksca.png`}
                     alt={``}
+                    data-aos="flip-left"
+                    data-aos-duration="1000"
+                    data-aos-delay="1000"
                   />
                   <img
                     src={`https://res.cloudinary.com/biandamara/image/upload/v1665735727/Portfolio%20Web/Icons/css_mfydus.png`}
                     alt={``}
+                    data-aos="flip-left"
+                    data-aos-duration="1000"
+                    data-aos-delay="1200"
                   />
                   <img
                     src={`https://res.cloudinary.com/biandamara/image/upload/v1665735727/Portfolio%20Web/Icons/javascript_rn4mqp.png`}
                     alt={``}
+                    data-aos="flip-left"
+                    data-aos-duration="1000"
+                    data-aos-delay="1400"
                   />
                   <img
                     src={`https://res.cloudinary.com/biandamara/image/upload/v1665735728/Portfolio%20Web/Icons/git_etdhqk.png`}
                     alt={``}
+                    data-aos="flip-left"
+                    data-aos-duration="1000"
+                    data-aos-delay="1600"
                   />
                   <img
                     src={`https://res.cloudinary.com/biandamara/image/upload/v1665735728/Portfolio%20Web/Icons/node_ufkqsb.png`}
                     alt={``}
+                    data-aos="flip-left"
+                    data-aos-duration="1000"
+                    data-aos-delay="1800"
                   />
                   <img
                     src={`https://res.cloudinary.com/biandamara/image/upload/v1665735728/Portfolio%20Web/Icons/express_ek4xho.png`}
                     alt={``}
+                    data-aos="flip-left"
+                    data-aos-duration="1000"
+                    data-aos-delay="2000"
                   />
                   <img
                     src={`https://res.cloudinary.com/biandamara/image/upload/v1665735728/Portfolio%20Web/Icons/postgresql_h006xx.png`}
                     alt={``}
+                    data-aos="flip-left"
+                    data-aos-duration="1000"
+                    data-aos-delay="2200"
                   />
                   <img
                     src={`https://res.cloudinary.com/biandamara/image/upload/v1665735729/Portfolio%20Web/Icons/react_pw5srt.png`}
                     alt={``}
+                    data-aos="flip-left"
+                    data-aos-duration="1000"
+                    data-aos-delay="2400"
                   />
                   <img
                     src={`https://res.cloudinary.com/biandamara/image/upload/v1665735728/Portfolio%20Web/Icons/next_ul8vjc.png`}
                     alt={``}
+                    data-aos="flip-left"
+                    data-aos-duration="1000"
+                    data-aos-delay="2600"
                   />
                   <img
                     src={`https://res.cloudinary.com/biandamara/image/upload/v1665735728/Portfolio%20Web/Icons/redux_gbcoub.png`}
                     alt={``}
+                    data-aos="flip-left"
+                    data-aos-duration="1000"
+                    data-aos-delay="2800"
                   />
                 </div>
               </div>
@@ -112,21 +170,42 @@ function About() {
             <br />
 
             <div className={`${styles.interest}`}>
-              <h2>Interested</h2>
+              <h2
+                data-aos="fade-down"
+                data-aos-duration="1000"
+                data-aos-delay="1000"
+              >
+                Interested
+              </h2>
               <div className={`row row-cols-1 row-cols-lg-3 g-5`}>
                 {/* psychology - start */}
                 <div className={`col`}>
                   <hr />
                   <div className={`row  mb-3`}>
-                    <h3 className={`col`}>Psychology</h3>
+                    <h3
+                      className={`col`}
+                      data-aos="fade-right"
+                      data-aos-duration="1000"
+                      data-aos-delay="1000"
+                    >
+                      Psychology
+                    </h3>
                     <div className={`col text-end`}>
                       <img
                         src={`https://res.cloudinary.com/biandamara/image/upload/v1665939993/Portfolio%20Web/Icons/psychology_nexc1x.png`}
                         alt={``}
+                        data-aos="fade-left"
+                        data-aos-duration="1000"
+                        data-aos-delay="1000"
                       />
                     </div>
                   </div>
-                  <p className={`lh-base`}>
+                  <p
+                    className={`lh-base`}
+                    data-aos="zoom-out"
+                    data-aos-duration="1000"
+                    data-aos-delay="1000"
+                  >
                     I'm a psychology graduate. I'm interested in studying human
                     behavior and the factors that influence it. Studying
                     psychology has helped me to understand myself better, and
@@ -142,15 +221,30 @@ function About() {
                 <div className={`col`}>
                   <hr />
                   <div className={`row  mb-3`}>
-                    <h3 className={`col`}>Traveling</h3>
+                    <h3
+                      className={`col`}
+                      data-aos="fade-right"
+                      data-aos-duration="1000"
+                      data-aos-delay="1000"
+                    >
+                      Traveling
+                    </h3>
                     <div className={`col text-end`}>
                       <img
                         src={`https://res.cloudinary.com/biandamara/image/upload/v1665939993/Portfolio%20Web/Icons/footstep_f7sv5i.png`}
                         alt={``}
+                        data-aos="fade-left"
+                        data-aos-duration="1000"
+                        data-aos-delay="1000"
                       />
                     </div>
                   </div>
-                  <p className={`lh-base`}>
+                  <p
+                    className={`lh-base`}
+                    data-aos="zoom-out"
+                    data-aos-duration="1000"
+                    data-aos-delay="1000"
+                  >
                     The adventure of a lifetime or just wanting to connect with
                     someone new, traveling can be a very rewarding experience.
                     It's also something I can do casually, at my own pace, with
@@ -167,15 +261,30 @@ function About() {
                 <div className={`col`}>
                   <hr />
                   <div className={`row  mb-3`}>
-                    <h3 className={`col`}>Photography</h3>
+                    <h3
+                      className={`col`}
+                      data-aos="fade-right"
+                      data-aos-duration="1000"
+                      data-aos-delay="1000"
+                    >
+                      Photography
+                    </h3>
                     <div className={`col text-end`}>
                       <img
                         src={`https://res.cloudinary.com/biandamara/image/upload/v1665939993/Portfolio%20Web/Icons/camera_fa9lpn.png`}
                         alt={``}
+                        data-aos="fade-left"
+                        data-aos-duration="1000"
+                        data-aos-delay="1000"
                       />
                     </div>
                   </div>
-                  <p className={`lh-base`}>
+                  <p
+                    className={`lh-base`}
+                    data-aos="zoom-out"
+                    data-aos-duration="1000"
+                    data-aos-delay="1000"
+                  >
                     Photography has always been one of my favorite hobbies. When
                     I take pictures, it's like seeing things from a new
                     perspective literally and figuratively. Thing about the

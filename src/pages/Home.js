@@ -1,3 +1,6 @@
+import React, { useEffect } from "react";
+import AOS from "aos";
+
 // import components
 import Navigation from "../components/Navigation";
 import Footer from "../components/Footer";
@@ -6,6 +9,10 @@ import Footer from "../components/Footer";
 import styles from "../assets/css/Home.module.css";
 
 function Home() {
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
   return (
     <>
       {/* component - navigation - start */}
@@ -23,7 +30,9 @@ function Home() {
 
         {/* content - start */}
         <div className={`container ${styles.content}`}>
-          <h1>{"BIAN DAMARA"}</h1>
+          <h1 data-aos="fade-right" data-aos-duration="1500">
+            {"BIAN DAMARA"}
+          </h1>
 
           <br />
 
@@ -31,12 +40,22 @@ function Home() {
 
           <br />
 
-          <h3>Front-End Developer</h3>
+          <h3
+            data-aos="fade-right"
+            data-aos-duration="1500"
+            data-aos-delay="500"
+          >
+            Front-End Developer
+          </h3>
 
           <br />
           <br />
 
-          <button>
+          <button
+            data-aos="fade-up"
+            data-aos-duration="1500"
+            data-aos-delay="500"
+          >
             <a href={`/about`}>Learn more</a>
           </button>
         </div>

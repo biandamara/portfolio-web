@@ -1,3 +1,6 @@
+import React, { useEffect } from "react";
+import AOS from "aos";
+
 // import components
 import Navigation from "../components/Navigation";
 import Footer from "../components/Footer";
@@ -6,6 +9,10 @@ import Footer from "../components/Footer";
 import styles from "../assets/css/Contact.module.css";
 
 function Contact() {
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
   return (
     <>
       {/* component - navigation - start */}
@@ -26,7 +33,9 @@ function Contact() {
           <div className={`row row-cols-1 row-cols-lg-2 g-5`}>
             {/* content left - start */}
             <div className={`col`}>
-              <h1>Say, Hi!</h1>
+              <h1 data-aos="fade-right" data-aos-duration="1000">
+                Say, Hi!
+              </h1>
             </div>
             {/* content left - end */}
 
@@ -34,18 +43,33 @@ function Contact() {
             <div className={`col ${styles.contact}`}>
               {/* contect right 01 - start */}
               <div>
-                <h3>Get in touch</h3>
+                <h3
+                  data-aos="fade-down"
+                  data-aos-duration="1000"
+                  data-aos-delay="500"
+                >
+                  Get in touch
+                </h3>
 
                 <br />
 
-                <p className={`lh-base`}>
+                <p
+                  className={`lh-base`}
+                  data-aos="fade-left"
+                  data-aos-duration="1000"
+                  data-aos-delay="1000"
+                >
                   You can contact me using this contact form below.
                 </p>
 
                 <br />
                 <br />
 
-                <form>
+                <form
+                  data-aos="fade-left"
+                  data-aos-duration="1000"
+                  data-aos-delay="1500"
+                >
                   <input
                     type={`text`}
                     name={`name`}
@@ -76,7 +100,13 @@ function Contact() {
                   <br />
                   <br />
 
-                  <button>Submit</button>
+                  <button
+                    data-aos="fade-left"
+                    data-aos-duration="1000"
+                    data-aos-delay="1500"
+                  >
+                    Submit
+                  </button>
                 </form>
               </div>
               {/* contect right 01 - end */}
@@ -91,11 +121,22 @@ function Contact() {
 
               {/* contect right 02 - start */}
               <div>
-                <h3>For more information</h3>
+                <h3
+                  data-aos="fade-down"
+                  data-aos-duration="1000"
+                  data-aos-delay="500"
+                >
+                  For more information
+                </h3>
 
                 <br />
 
-                <p className={`lh-base`}>
+                <p
+                  className={`lh-base`}
+                  data-aos="fade-left"
+                  data-aos-duration="1000"
+                  data-aos-delay="1000"
+                >
                   Please go visit my social media account.
                 </p>
 
@@ -107,6 +148,9 @@ function Contact() {
                   <a
                     className={`row row-cols-3 row-cols-lg-3 p-3 align-items-center`}
                     href={`mailto: bian.damara@gmail.com/`}
+                    data-aos="fade-left"
+                    data-aos-duration="1000"
+                    data-aos-delay="1500"
                   >
                     <div className={`col-sm-2 col-lg-2 text-center`}>
                       <img
@@ -122,6 +166,9 @@ function Contact() {
                   <a
                     className={`row row-cols-3 row-cols-lg-3 p-3 align-items-center`}
                     href={`https://www.instagram.com/biandamara/`}
+                    data-aos="fade-left"
+                    data-aos-duration="1000"
+                    data-aos-delay="1700"
                   >
                     <div className={`col-sm-2 col-lg-2 text-center`}>
                       <img
@@ -137,6 +184,9 @@ function Contact() {
                   <a
                     className={`row row-cols-3 row-cols-lg-3 p-3 align-items-center`}
                     href={`https://www.linkedin.com/in/bian-damara-218270151/`}
+                    data-aos="fade-left"
+                    data-aos-duration="1000"
+                    data-aos-delay="1900"
                   >
                     <div className={`col-sm-2 col-lg-2 text-center`}>
                       <img
@@ -152,6 +202,9 @@ function Contact() {
                   <a
                     className={`row row-cols-3 row-cols-lg-3 p-3 align-items-center`}
                     href={`https://github.com/biandamara`}
+                    data-aos="fade-left"
+                    data-aos-duration="1000"
+                    data-aos-delay="2100"
                   >
                     <div className={`col-sm-2 col-lg-2 text-center`}>
                       <img
