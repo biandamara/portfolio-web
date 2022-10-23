@@ -1,4 +1,5 @@
-import React, { useEffect } from "react";
+import React, { useRef, useEffect } from "react";
+import emailjs from "@emailjs/browser";
 import AOS from "aos";
 
 // import components
@@ -9,6 +10,28 @@ import Footer from "../components/Footer";
 import styles from "../assets/css/Contact.module.css";
 
 function Contact() {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_k946nxk",
+        "template_7xd9ghr",
+        form.current,
+        "H5nY49c7aP7tp5DwI"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
+
   useEffect(() => {
     AOS.init();
   }, []);
@@ -65,14 +88,17 @@ function Contact() {
                 <br />
                 <br />
 
+                {/* contact form - start */}
                 <form
+                  ref={form}
+                  onSubmit={sendEmail}
                   data-aos="fade-left"
                   data-aos-duration="1000"
                   data-aos-delay="1500"
                 >
                   <input
                     type={`text`}
-                    name={`name`}
+                    name={`user_name`}
                     placeholder={`Name`}
                   ></input>
 
@@ -80,8 +106,8 @@ function Contact() {
                   <br />
 
                   <input
-                    type={`text`}
-                    name={`name`}
+                    type={`email`}
+                    name={`user_email`}
                     placeholder={`E-mail`}
                   ></input>
 
@@ -89,11 +115,9 @@ function Contact() {
                   <br />
 
                   <textarea
-                    rows={`10`}
-                    type={`text`}
-                    name={`comment`}
-                    form={`usrform`}
+                    name={`message`}
                     placeholder={`Message`}
+                    rows={`10`}
                   ></textarea>
 
                   <br />
@@ -101,6 +125,8 @@ function Contact() {
                   <br />
 
                   <button
+                    type="submit"
+                    value="Send"
                     data-aos="fade-left"
                     data-aos-duration="1000"
                     data-aos-delay="1500"
@@ -108,6 +134,7 @@ function Contact() {
                     Submit
                   </button>
                 </form>
+                {/* contact form - end */}
               </div>
               {/* contect right 01 - end */}
 
