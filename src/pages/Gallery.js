@@ -29,6 +29,7 @@ function Gallery() {
             data-aos="fade-right"
             data-aos-duration="1000"
             data-aos-delay="500"
+            data-aos-once="true"
           >
             A mountain isn't incredibly pretty – it's beautiful.
             <br />
@@ -37,6 +38,7 @@ function Gallery() {
             data-aos="fade-right"
             data-aos-duration="1000"
             data-aos-delay="800"
+            data-aos-once="true"
           >
             The shoes aren't really expensive – they're plush.
           </p>
@@ -53,6 +55,7 @@ function Gallery() {
               data-aos="fade-down"
               data-aos-duration="1000"
               data-aos-delay="500"
+              data-aos-once="true"
               aria-hidden
             />
           </div>
@@ -64,6 +67,7 @@ function Gallery() {
               data-aos="fade-down"
               data-aos-duration="1000"
               data-aos-delay="800"
+              data-aos-once="true"
               aria-hidden
             />
           </div>
@@ -75,6 +79,7 @@ function Gallery() {
               data-aos="fade-down"
               data-aos-duration="1000"
               data-aos-delay="500"
+              data-aos-once="true"
               aria-hidden
             />
           </div>
@@ -86,6 +91,7 @@ function Gallery() {
               data-aos="fade-down"
               data-aos-duration="1000"
               data-aos-delay="800"
+              data-aos-once="true"
               aria-hidden
             ></img>
           </div>
@@ -97,6 +103,7 @@ function Gallery() {
               data-aos="fade-down"
               data-aos-duration="1000"
               data-aos-delay="500"
+              data-aos-once="true"
               aria-hidden
             ></img>
           </div>
@@ -108,6 +115,7 @@ function Gallery() {
               data-aos="fade-down"
               data-aos-duration="1000"
               data-aos-delay="800"
+              data-aos-once="true"
               aria-hidden
             ></img>
           </div>
@@ -119,6 +127,7 @@ function Gallery() {
               data-aos="fade-down"
               data-aos-duration="1000"
               data-aos-delay="500"
+              data-aos-once="true"
               aria-hidden
             ></img>
           </div>
@@ -130,6 +139,7 @@ function Gallery() {
               data-aos="fade-down"
               data-aos-duration="1000"
               data-aos-delay="800"
+              data-aos-once="true"
               aria-hidden
             ></img>
           </div>
@@ -141,6 +151,7 @@ function Gallery() {
               data-aos="fade-down"
               data-aos-duration="1000"
               data-aos-delay="500"
+              data-aos-once="true"
               aria-hidden
             ></img>
           </div>
@@ -152,6 +163,7 @@ function Gallery() {
               data-aos="fade-down"
               data-aos-duration="1000"
               data-aos-delay="800"
+              data-aos-once="true"
               aria-hidden
             ></img>
           </div>
@@ -163,6 +175,7 @@ function Gallery() {
               data-aos="fade-down"
               data-aos-duration="1000"
               data-aos-delay="500"
+              data-aos-once="true"
               aria-hidden
             ></img>
           </div>
@@ -174,6 +187,7 @@ function Gallery() {
               data-aos="fade-down"
               data-aos-duration="1000"
               data-aos-delay="800"
+              data-aos-once="true"
               aria-hidden
             ></img>
           </div>
@@ -185,6 +199,7 @@ function Gallery() {
               data-aos="fade-down"
               data-aos-duration="1000"
               data-aos-delay="500"
+              data-aos-once="true"
               aria-hidden
             ></img>
           </div>
@@ -196,6 +211,7 @@ function Gallery() {
               data-aos="fade-down"
               data-aos-duration="1000"
               data-aos-delay="800"
+              data-aos-once="true"
               aria-hidden
             ></img>
           </div>
@@ -206,6 +222,7 @@ function Gallery() {
               alt={`Image 15`}
               data-aos="fade-down"
               data-aos-delay="500"
+              data-aos-once="true"
               aria-hidden
             ></img>
           </div>
@@ -217,6 +234,7 @@ function Gallery() {
               data-aos="fade-down"
               data-aos-duration="1000"
               data-aos-delay="800"
+              data-aos-once="true"
               aria-hidden
             ></img>
           </div>
@@ -228,6 +246,7 @@ function Gallery() {
               data-aos="fade-down"
               data-aos-duration="1000"
               data-aos-delay="500"
+              data-aos-once="true"
               aria-hidden
             ></img>
           </div>
@@ -239,6 +258,7 @@ function Gallery() {
               data-aos="fade-down"
               data-aos-duration="1000"
               data-aos-delay="800"
+              data-aos-once="true"
               aria-hidden
             ></img>
           </div>

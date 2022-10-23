@@ -39,6 +39,7 @@ function About() {
                   alt={``}
                   data-aos="zoom-out"
                   data-aos-duration="1000"
+                  data-aos-once="true"
                 />
               </div>
               {/* content left side - end */}
@@ -50,6 +51,7 @@ function About() {
                   data-aos="fade-down"
                   data-aos-duration="1000"
                   data-aos-delay="1000"
+                  data-aos-once="true"
                 >
                   Front-End Developer
                 </h2>
@@ -60,7 +62,11 @@ function About() {
                 <br />
 
                 {/* full name - start */}
-                <h1 data-aos="zoom-out" data-aos-duration="1000">
+                <h1
+                  data-aos="zoom-out"
+                  data-aos-duration="1000"
+                  data-aos-once="true"
+                >
                   BIAN DAMARA
                 </h1>
                 {/* full name - end */}
@@ -75,6 +81,7 @@ function About() {
                   data-aos="zoom-out"
                   data-aos-duration="1000"
                   data-aos-delay="1000"
+                  data-aos-once="true"
                 >
                   I'm a Front-end Developer who has expertise in the use of
                   HTML, CSS, JavaScript, GIT, Node JS, Express JS, PostgreSQL,
@@ -95,6 +102,7 @@ function About() {
                     data-aos="flip-left"
                     data-aos-duration="1000"
                     data-aos-delay="1000"
+                    data-aos-once="true"
                   />
                   <img
                     src={`https://res.cloudinary.com/biandamara/image/upload/v1665735727/Portfolio%20Web/Icons/css_mfydus.png`}
@@ -102,6 +110,7 @@ function About() {
                     data-aos="flip-left"
                     data-aos-duration="1000"
                     data-aos-delay="1200"
+                    data-aos-once="true"
                   />
                   <img
                     src={`https://res.cloudinary.com/biandamara/image/upload/v1665735727/Portfolio%20Web/Icons/javascript_rn4mqp.png`}
@@ -109,6 +118,7 @@ function About() {
                     data-aos="flip-left"
                     data-aos-duration="1000"
                     data-aos-delay="1400"
+                    data-aos-once="true"
                   />
                   <img
                     src={`https://res.cloudinary.com/biandamara/image/upload/v1665735728/Portfolio%20Web/Icons/git_etdhqk.png`}
@@ -116,6 +126,7 @@ function About() {
                     data-aos="flip-left"
                     data-aos-duration="1000"
                     data-aos-delay="1600"
+                    data-aos-once="true"
                   />
                   <img
                     src={`https://res.cloudinary.com/biandamara/image/upload/v1665735728/Portfolio%20Web/Icons/node_ufkqsb.png`}
@@ -123,6 +134,7 @@ function About() {
                     data-aos="flip-left"
                     data-aos-duration="1000"
                     data-aos-delay="1800"
+                    data-aos-once="true"
                   />
                   <img
                     src={`https://res.cloudinary.com/biandamara/image/upload/v1665735728/Portfolio%20Web/Icons/express_ek4xho.png`}
@@ -130,6 +142,7 @@ function About() {
                     data-aos="flip-left"
                     data-aos-duration="1000"
                     data-aos-delay="2000"
+                    data-aos-once="true"
                   />
                   <img
                     src={`https://res.cloudinary.com/biandamara/image/upload/v1665735728/Portfolio%20Web/Icons/postgresql_h006xx.png`}
@@ -137,6 +150,7 @@ function About() {
                     data-aos="flip-left"
                     data-aos-duration="1000"
                     data-aos-delay="2200"
+                    data-aos-once="true"
                   />
                   <img
                     src={`https://res.cloudinary.com/biandamara/image/upload/v1665735729/Portfolio%20Web/Icons/react_pw5srt.png`}
@@ -144,6 +158,7 @@ function About() {
                     data-aos="flip-left"
                     data-aos-duration="1000"
                     data-aos-delay="2400"
+                    data-aos-once="true"
                   />
                   <img
                     src={`https://res.cloudinary.com/biandamara/image/upload/v1665735728/Portfolio%20Web/Icons/next_ul8vjc.png`}
@@ -151,6 +166,7 @@ function About() {
                     data-aos="flip-left"
                     data-aos-duration="1000"
                     data-aos-delay="2600"
+                    data-aos-once="true"
                   />
                   <img
                     src={`https://res.cloudinary.com/biandamara/image/upload/v1665735728/Portfolio%20Web/Icons/redux_gbcoub.png`}
@@ -158,6 +174,7 @@ function About() {
                     data-aos="flip-left"
                     data-aos-duration="1000"
                     data-aos-delay="2800"
+                    data-aos-once="true"
                   />
                 </div>
               </div>
@@ -174,6 +191,7 @@ function About() {
                 data-aos="fade-down"
                 data-aos-duration="1000"
                 data-aos-delay="1000"
+                data-aos-once="true"
               >
                 Interested
               </h2>
@@ -187,6 +205,7 @@ function About() {
                       data-aos="fade-right"
                       data-aos-duration="1000"
                       data-aos-delay="1000"
+                      data-aos-once="true"
                     >
                       Psychology
                     </h3>
@@ -197,6 +216,7 @@ function About() {
                         data-aos="fade-left"
                         data-aos-duration="1000"
                         data-aos-delay="1000"
+                        data-aos-once="true"
                       />
                     </div>
                   </div>
@@ -205,6 +225,7 @@ function About() {
                     data-aos="zoom-out"
                     data-aos-duration="1000"
                     data-aos-delay="1000"
+                    data-aos-once="true"
                   >
                     I'm a psychology graduate. I'm interested in studying human
                     behavior and the factors that influence it. Studying
@@ -226,6 +247,7 @@ function About() {
                       data-aos="fade-right"
                       data-aos-duration="1000"
                       data-aos-delay="1000"
+                      data-aos-once="true"
                     >
                       Traveling
                     </h3>
@@ -236,6 +258,7 @@ function About() {
                         data-aos="fade-left"
                         data-aos-duration="1000"
                         data-aos-delay="1000"
+                        data-aos-once="true"
                       />
                     </div>
                   </div>
@@ -244,6 +267,7 @@ function About() {
                     data-aos="zoom-out"
                     data-aos-duration="1000"
                     data-aos-delay="1000"
+                    data-aos-once="true"
                   >
                     The adventure of a lifetime or just wanting to connect with
                     someone new, traveling can be a very rewarding experience.
@@ -266,6 +290,7 @@ function About() {
                       data-aos="fade-right"
                       data-aos-duration="1000"
                       data-aos-delay="1000"
+                      data-aos-once="true"
                     >
                       Photography
                     </h3>
@@ -276,6 +301,7 @@ function About() {
                         data-aos="fade-left"
                         data-aos-duration="1000"
                         data-aos-delay="1000"
+                        data-aos-once="true"
                       />
                     </div>
                   </div>
@@ -284,6 +310,7 @@ function About() {
                     data-aos="zoom-out"
                     data-aos-duration="1000"
                     data-aos-delay="1000"
+                    data-aos-once="true"
                   >
                     Photography has always been one of my favorite hobbies. When
                     I take pictures, it's like seeing things from a new

@@ -56,7 +56,11 @@ function Contact() {
           <div className={`row row-cols-1 row-cols-lg-2 g-5`}>
             {/* content left - start */}
             <div className={`col`}>
-              <h1 data-aos="fade-right" data-aos-duration="1000">
+              <h1
+                data-aos="fade-right"
+                data-aos-duration="1000"
+                data-aos-once="true"
+              >
                 Say, Hi!
               </h1>
             </div>
@@ -70,6 +74,7 @@ function Contact() {
                   data-aos="fade-down"
                   data-aos-duration="1000"
                   data-aos-delay="500"
+                  data-aos-once="true"
                 >
                   Get in touch
                 </h3>
@@ -81,6 +86,7 @@ function Contact() {
                   data-aos="fade-left"
                   data-aos-duration="1000"
                   data-aos-delay="1000"
+                  data-aos-once="true"
                 >
                   You can contact me using this contact form below.
                 </p>
@@ -95,6 +101,7 @@ function Contact() {
                   data-aos="fade-left"
                   data-aos-duration="1000"
                   data-aos-delay="1500"
+                  data-aos-once="true"
                 >
                   <input
                     type={`text`}
@@ -152,6 +159,7 @@ function Contact() {
                   data-aos="fade-down"
                   data-aos-duration="1000"
                   data-aos-delay="500"
+                  data-aos-once="true"
                 >
                   For more information
                 </h3>
@@ -163,6 +171,7 @@ function Contact() {
                   data-aos="fade-left"
                   data-aos-duration="1000"
                   data-aos-delay="1000"
+                  data-aos-once="true"
                 >
                   Please go visit my social media account.
                 </p>
@@ -178,6 +187,7 @@ function Contact() {
                     data-aos="fade-left"
                     data-aos-duration="1000"
                     data-aos-delay="1500"
+                    data-aos-once="true"
                   >
                     <div className={`col-sm-2 col-lg-2 text-center`}>
                       <img
@@ -196,6 +206,7 @@ function Contact() {
                     data-aos="fade-left"
                     data-aos-duration="1000"
                     data-aos-delay="1700"
+                    data-aos-once="true"
                   >
                     <div className={`col-sm-2 col-lg-2 text-center`}>
                       <img
@@ -214,6 +225,7 @@ function Contact() {
                     data-aos="fade-left"
                     data-aos-duration="1000"
                     data-aos-delay="1900"
+                    data-aos-once="true"
                   >
                     <div className={`col-sm-2 col-lg-2 text-center`}>
                       <img
@@ -232,6 +244,7 @@ function Contact() {
                     data-aos="fade-left"
                     data-aos-duration="1000"
                     data-aos-delay="2100"
+                    data-aos-once="true"
                   >
                     <div className={`col-sm-2 col-lg-2 text-center`}>
                       <img

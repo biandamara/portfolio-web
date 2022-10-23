@@ -30,7 +30,11 @@ function Home() {
 
         {/* content - start */}
         <div className={`container ${styles.content}`}>
-          <h1 data-aos="fade-right" data-aos-duration="1500">
+          <h1
+            data-aos="fade-right"
+            data-aos-duration="1500"
+            data-aos-once="true"
+          >
             {"BIAN DAMARA"}
           </h1>
 
@@ -44,6 +48,7 @@ function Home() {
             data-aos="fade-right"
             data-aos-duration="1500"
             data-aos-delay="500"
+            data-aos-once="true"
           >
             Front-End Developer
           </h3>
@@ -55,6 +60,7 @@ function Home() {
             data-aos="fade-up"
             data-aos-duration="1500"
             data-aos-delay="500"
+            data-aos-once="true"
           >
             <a href={`/about`}>Learn more</a>
           </button>
