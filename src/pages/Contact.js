@@ -199,6 +199,7 @@ function Contact() {
                     data-aos={`fade-left`}
                     data-aos-duration={`1000`}
                     data-aos-delay={`1500`}
+                    data-aos-once={`true`}
                   >
                     Submit
                   </button>
