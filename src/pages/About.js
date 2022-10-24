@@ -37,9 +37,9 @@ function About() {
                 <img
                   src={`https://res.cloudinary.com/biandamara/image/upload/v1665939304/Portfolio%20Web/profile_k3pg7e.png`}
                   alt={``}
-                  data-aos="zoom-out"
-                  data-aos-duration="1000"
-                  data-aos-once="true"
+                  data-aos={`zoom-out`}
+                  data-aos-duration={`1000`}
+                  data-aos-once={`true`}
                 />
               </div>
               {/* content left side - end */}
@@ -48,10 +48,10 @@ function About() {
               <div className={`col col-lg-8 ${styles.right}`}>
                 {/* job title - start */}
                 <h2
-                  data-aos="fade-down"
-                  data-aos-duration="1000"
-                  data-aos-delay="1000"
-                  data-aos-once="true"
+                  data-aos={`fade-down`}
+                  data-aos-duration={`1000`}
+                  data-aos-delay={`1000`}
+                  data-aos-once={`true`}
                 >
                   Front-End Developer
                 </h2>
@@ -63,9 +63,9 @@ function About() {
 
                 {/* full name - start */}
                 <h1
-                  data-aos="zoom-out"
-                  data-aos-duration="1000"
-                  data-aos-once="true"
+                  data-aos={`zoom-out`}
+                  data-aos-duration={`1000`}
+                  data-aos-once={`true`}
                 >
                   BIAN DAMARA
                 </h1>
@@ -78,10 +78,10 @@ function About() {
                 {/* about me - start */}
                 <p
                   className={`lh-base`}
-                  data-aos="zoom-out"
-                  data-aos-duration="1000"
-                  data-aos-delay="1000"
-                  data-aos-once="true"
+                  data-aos={`zoom-out`}
+                  data-aos-duration={`1000`}
+                  data-aos-delay={`1000`}
+                  data-aos-once={`true`}
                 >
                   I'm a Front-end Developer who has expertise in the use of
                   HTML, CSS, JavaScript, GIT, Node JS, Express JS, PostgreSQL,
@@ -99,82 +99,82 @@ function About() {
                   <img
                     src={`https://res.cloudinary.com/biandamara/image/upload/v1665735728/Portfolio%20Web/Icons/html_p9ksca.png`}
                     alt={``}
-                    data-aos="flip-left"
-                    data-aos-duration="1000"
-                    data-aos-delay="1000"
-                    data-aos-once="true"
+                    data-aos={`flip-left`}
+                    data-aos-duration={`1000`}
+                    data-aos-delay={`1000`}
+                    data-aos-once={`true`}
                   />
                   <img
                     src={`https://res.cloudinary.com/biandamara/image/upload/v1665735727/Portfolio%20Web/Icons/css_mfydus.png`}
                     alt={``}
-                    data-aos="flip-left"
-                    data-aos-duration="1000"
-                    data-aos-delay="1200"
-                    data-aos-once="true"
+                    data-aos={`flip-left`}
+                    data-aos-duration={`1000`}
+                    data-aos-delay={`1200`}
+                    data-aos-once={`true`}
                   />
                   <img
                     src={`https://res.cloudinary.com/biandamara/image/upload/v1665735727/Portfolio%20Web/Icons/javascript_rn4mqp.png`}
                     alt={``}
-                    data-aos="flip-left"
-                    data-aos-duration="1000"
-                    data-aos-delay="1400"
-                    data-aos-once="true"
+                    data-aos={`flip-left`}
+                    data-aos-duration={`1000`}
+                    data-aos-delay={`1400`}
+                    data-aos-once={`true`}
                   />
                   <img
                     src={`https://res.cloudinary.com/biandamara/image/upload/v1665735728/Portfolio%20Web/Icons/git_etdhqk.png`}
                     alt={``}
-                    data-aos="flip-left"
-                    data-aos-duration="1000"
-                    data-aos-delay="1600"
-                    data-aos-once="true"
+                    data-aos={`flip-left`}
+                    data-aos-duration={`1000`}
+                    data-aos-delay={`1600`}
+                    data-aos-once={`true`}
                   />
                   <img
                     src={`https://res.cloudinary.com/biandamara/image/upload/v1665735728/Portfolio%20Web/Icons/node_ufkqsb.png`}
                     alt={``}
-                    data-aos="flip-left"
-                    data-aos-duration="1000"
-                    data-aos-delay="1800"
-                    data-aos-once="true"
+                    data-aos={`flip-left`}
+                    data-aos-duration={`1000`}
+                    data-aos-delay={`1800`}
+                    data-aos-once={`true`}
                   />
                   <img
                     src={`https://res.cloudinary.com/biandamara/image/upload/v1665735728/Portfolio%20Web/Icons/express_ek4xho.png`}
                     alt={``}
-                    data-aos="flip-left"
-                    data-aos-duration="1000"
-                    data-aos-delay="2000"
-                    data-aos-once="true"
+                    data-aos={`flip-left`}
+                    data-aos-duration={`1000`}
+                    data-aos-delay={`2000`}
+                    data-aos-once={`true`}
                   />
                   <img
                     src={`https://res.cloudinary.com/biandamara/image/upload/v1665735728/Portfolio%20Web/Icons/postgresql_h006xx.png`}
                     alt={``}
-                    data-aos="flip-left"
-                    data-aos-duration="1000"
-                    data-aos-delay="2200"
-                    data-aos-once="true"
+                    data-aos={`flip-left`}
+                    data-aos-duration={`1000`}
+                    data-aos-delay={`2200`}
+                    data-aos-once={`true`}
                   />
                   <img
                     src={`https://res.cloudinary.com/biandamara/image/upload/v1665735729/Portfolio%20Web/Icons/react_pw5srt.png`}
                     alt={``}
-                    data-aos="flip-left"
-                    data-aos-duration="1000"
-                    data-aos-delay="2400"
-                    data-aos-once="true"
+                    data-aos={`flip-left`}
+                    data-aos-duration={`1000`}
+                    data-aos-delay={`2400`}
+                    data-aos-once={`true`}
                   />
                   <img
                     src={`https://res.cloudinary.com/biandamara/image/upload/v1665735728/Portfolio%20Web/Icons/next_ul8vjc.png`}
                     alt={``}
-                    data-aos="flip-left"
-                    data-aos-duration="1000"
-                    data-aos-delay="2600"
-                    data-aos-once="true"
+                    data-aos={`flip-left`}
+                    data-aos-duration={`1000`}
+                    data-aos-delay={`2600`}
+                    data-aos-once={`true`}
                   />
                   <img
                     src={`https://res.cloudinary.com/biandamara/image/upload/v1665735728/Portfolio%20Web/Icons/redux_gbcoub.png`}
                     alt={``}
-                    data-aos="flip-left"
-                    data-aos-duration="1000"
-                    data-aos-delay="2800"
-                    data-aos-once="true"
+                    data-aos={`flip-left`}
+                    data-aos-duration={`1000`}
+                    data-aos-delay={`2800`}
+                    data-aos-once={`true`}
                   />
                 </div>
               </div>
@@ -188,10 +188,10 @@ function About() {
 
             <div className={`${styles.interest}`}>
               <h2
-                data-aos="fade-down"
-                data-aos-duration="1000"
-                data-aos-delay="1000"
-                data-aos-once="true"
+                data-aos={`fade-down`}
+                data-aos-duration={`1000`}
+                data-aos-delay={`1000`}
+                data-aos-once={`true`}
               >
                 Interested
               </h2>
@@ -202,10 +202,10 @@ function About() {
                   <div className={`row  mb-3`}>
                     <h3
                       className={`col`}
-                      data-aos="fade-right"
-                      data-aos-duration="1000"
-                      data-aos-delay="1000"
-                      data-aos-once="true"
+                      data-aos={`fade-right`}
+                      data-aos-duration={`1000`}
+                      data-aos-delay={`1000`}
+                      data-aos-once={`true`}
                     >
                       Psychology
                     </h3>
@@ -213,19 +213,19 @@ function About() {
                       <img
                         src={`https://res.cloudinary.com/biandamara/image/upload/v1665939993/Portfolio%20Web/Icons/psychology_nexc1x.png`}
                         alt={``}
-                        data-aos="fade-left"
-                        data-aos-duration="1000"
-                        data-aos-delay="1000"
-                        data-aos-once="true"
+                        data-aos={`fade-left`}
+                        data-aos-duration={`1000`}
+                        data-aos-delay={`1000`}
+                        data-aos-once={`true`}
                       />
                     </div>
                   </div>
                   <p
                     className={`lh-base`}
-                    data-aos="zoom-out"
-                    data-aos-duration="1000"
-                    data-aos-delay="1000"
-                    data-aos-once="true"
+                    data-aos={`zoom-out`}
+                    data-aos-duration={`1000`}
+                    data-aos-delay={`1000`}
+                    data-aos-once={`true`}
                   >
                     I'm a psychology graduate. I'm interested in studying human
                     behavior and the factors that influence it. Studying
@@ -244,10 +244,10 @@ function About() {
                   <div className={`row  mb-3`}>
                     <h3
                       className={`col`}
-                      data-aos="fade-right"
-                      data-aos-duration="1000"
-                      data-aos-delay="1000"
-                      data-aos-once="true"
+                      data-aos={`fade-right`}
+                      data-aos-duration={`1000`}
+                      data-aos-delay={`1000`}
+                      data-aos-once={`true`}
                     >
                       Traveling
                     </h3>
@@ -255,19 +255,19 @@ function About() {
                       <img
                         src={`https://res.cloudinary.com/biandamara/image/upload/v1665939993/Portfolio%20Web/Icons/footstep_f7sv5i.png`}
                         alt={``}
-                        data-aos="fade-left"
-                        data-aos-duration="1000"
-                        data-aos-delay="1000"
-                        data-aos-once="true"
+                        data-aos={`fade-left`}
+                        data-aos-duration={`1000`}
+                        data-aos-delay={`1000`}
+                        data-aos-once={`true`}
                       />
                     </div>
                   </div>
                   <p
                     className={`lh-base`}
-                    data-aos="zoom-out"
-                    data-aos-duration="1000"
-                    data-aos-delay="1000"
-                    data-aos-once="true"
+                    data-aos={`zoom-out`}
+                    data-aos-duration={`1000`}
+                    data-aos-delay={`1000`}
+                    data-aos-once={`true`}
                   >
                     The adventure of a lifetime or just wanting to connect with
                     someone new, traveling can be a very rewarding experience.
@@ -287,10 +287,10 @@ function About() {
                   <div className={`row  mb-3`}>
                     <h3
                       className={`col`}
-                      data-aos="fade-right"
-                      data-aos-duration="1000"
-                      data-aos-delay="1000"
-                      data-aos-once="true"
+                      data-aos={`fade-right`}
+                      data-aos-duration={`1000`}
+                      data-aos-delay={`1000`}
+                      data-aos-once={`true`}
                     >
                       Photography
                     </h3>
@@ -298,19 +298,19 @@ function About() {
                       <img
                         src={`https://res.cloudinary.com/biandamara/image/upload/v1665939993/Portfolio%20Web/Icons/camera_fa9lpn.png`}
                         alt={``}
-                        data-aos="fade-left"
-                        data-aos-duration="1000"
-                        data-aos-delay="1000"
-                        data-aos-once="true"
+                        data-aos={`fade-left`}
+                        data-aos-duration={`1000`}
+                        data-aos-delay={`1000`}
+                        data-aos-once={`true`}
                       />
                     </div>
                   </div>
                   <p
                     className={`lh-base`}
-                    data-aos="zoom-out"
-                    data-aos-duration="1000"
-                    data-aos-delay="1000"
-                    data-aos-once="true"
+                    data-aos={`zoom-out`}
+                    data-aos-duration={`1000`}
+                    data-aos-delay={`1000`}
+                    data-aos-once={`true`}
                   >
                     Photography has always been one of my favorite hobbies. When
                     I take pictures, it's like seeing things from a new

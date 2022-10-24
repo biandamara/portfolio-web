@@ -12,7 +12,7 @@ import styles from "../assets/css/Contact.module.css";
 function Contact() {
   const form = useRef();
 
-  const sendEmail = (e) => {
+  const handleSubmit = (e) => {
     e.preventDefault();
 
     emailjs
@@ -57,9 +57,9 @@ function Contact() {
             {/* content left - start */}
             <div className={`col`}>
               <h1
-                data-aos="fade-right"
-                data-aos-duration="1000"
-                data-aos-once="true"
+                data-aos={`fade-right`}
+                data-aos-duration={`1000`}
+                data-aos-once={`true`}
               >
                 Say, Hi!
               </h1>
@@ -71,10 +71,10 @@ function Contact() {
               {/* contect right 01 - start */}
               <div>
                 <h3
-                  data-aos="fade-down"
-                  data-aos-duration="1000"
-                  data-aos-delay="500"
-                  data-aos-once="true"
+                  data-aos={`fade-down`}
+                  data-aos-duration={`1000`}
+                  data-aos-delay={`500`}
+                  data-aos-once={`true`}
                 >
                   Get in touch
                 </h3>
@@ -83,10 +83,10 @@ function Contact() {
 
                 <p
                   className={`lh-base`}
-                  data-aos="fade-left"
-                  data-aos-duration="1000"
-                  data-aos-delay="1000"
-                  data-aos-once="true"
+                  data-aos={`fade-left`}
+                  data-aos-duration={`1000`}
+                  data-aos-delay={`1000`}
+                  data-aos-once={`true`}
                 >
                   You can contact me using this contact form below.
                 </p>
@@ -97,11 +97,11 @@ function Contact() {
                 {/* contact form - start */}
                 <form
                   ref={form}
-                  onSubmit={sendEmail}
-                  data-aos="fade-left"
-                  data-aos-duration="1000"
-                  data-aos-delay="1500"
-                  data-aos-once="true"
+                  onSubmit={handleSubmit}
+                  data-aos={`fade-left`}
+                  data-aos-duration={`1000`}
+                  data-aos-delay={`1500`}
+                  data-aos-once={`true`}
                 >
                   <input
                     type={`text`}
@@ -132,11 +132,11 @@ function Contact() {
                   <br />
 
                   <button
-                    type="submit"
-                    value="Send"
-                    data-aos="fade-left"
-                    data-aos-duration="1000"
-                    data-aos-delay="1500"
+                    type={`submit`}
+                    value={`send`}
+                    data-aos={`fade-left`}
+                    data-aos-duration={`1000`}
+                    data-aos-delay={`1500`}
                   >
                     Submit
                   </button>
@@ -156,10 +156,10 @@ function Contact() {
               {/* contect right 02 - start */}
               <div>
                 <h3
-                  data-aos="fade-down"
-                  data-aos-duration="1000"
-                  data-aos-delay="500"
-                  data-aos-once="true"
+                  data-aos={`fade-down`}
+                  data-aos-duration={`1000`}
+                  data-aos-delay={`500`}
+                  data-aos-once={`true`}
                 >
                   For more information
                 </h3>
@@ -168,10 +168,10 @@ function Contact() {
 
                 <p
                   className={`lh-base`}
-                  data-aos="fade-left"
-                  data-aos-duration="1000"
-                  data-aos-delay="1000"
-                  data-aos-once="true"
+                  data-aos={`fade-left`}
+                  data-aos-duration={`1000`}
+                  data-aos-delay={`1000`}
+                  data-aos-once={`true`}
                 >
                   Please go visit my social media account.
                 </p>
@@ -183,11 +183,11 @@ function Contact() {
                   {/* link e-mail - start */}
                   <a
                     className={`row row-cols-3 row-cols-lg-3 p-3 align-items-center`}
-                    href={`mailto: bian.damara@gmail.com/`}
-                    data-aos="fade-left"
-                    data-aos-duration="1000"
-                    data-aos-delay="1500"
-                    data-aos-once="true"
+                    href={`mailto: bian.damara@gmail.com`}
+                    data-aos={`fade-left`}
+                    data-aos-duration={`1000`}
+                    data-aos-delay={`1500`}
+                    data-aos-once={`true`}
                   >
                     <div className={`col-sm-2 col-lg-2 text-center`}>
                       <img
@@ -203,10 +203,10 @@ function Contact() {
                   <a
                     className={`row row-cols-3 row-cols-lg-3 p-3 align-items-center`}
                     href={`https://www.instagram.com/biandamara/`}
-                    data-aos="fade-left"
-                    data-aos-duration="1000"
-                    data-aos-delay="1700"
-                    data-aos-once="true"
+                    data-aos={`fade-left`}
+                    data-aos-duration={`1000`}
+                    data-aos-delay={`1700`}
+                    data-aos-once={`true`}
                   >
                     <div className={`col-sm-2 col-lg-2 text-center`}>
                       <img
@@ -222,10 +222,10 @@ function Contact() {
                   <a
                     className={`row row-cols-3 row-cols-lg-3 p-3 align-items-center`}
                     href={`https://www.linkedin.com/in/bian-damara-218270151/`}
-                    data-aos="fade-left"
-                    data-aos-duration="1000"
-                    data-aos-delay="1900"
-                    data-aos-once="true"
+                    data-aos={`fade-left`}
+                    data-aos-duration={`1000`}
+                    data-aos-delay={`1900`}
+                    data-aos-once={`true`}
                   >
                     <div className={`col-sm-2 col-lg-2 text-center`}>
                       <img
@@ -241,10 +241,10 @@ function Contact() {
                   <a
                     className={`row row-cols-3 row-cols-lg-3 p-3 align-items-center`}
                     href={`https://github.com/biandamara`}
-                    data-aos="fade-left"
-                    data-aos-duration="1000"
-                    data-aos-delay="2100"
-                    data-aos-once="true"
+                    data-aos={`fade-left`}
+                    data-aos-duration={`1000`}
+                    data-aos-delay={`2100`}
+                    data-aos-once={`true`}
                   >
                     <div className={`col-sm-2 col-lg-2 text-center`}>
                       <img

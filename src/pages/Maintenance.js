@@ -13,17 +13,7 @@ function Maintenance() {
       {/* component - navigation end */}
 
       {/* page - under maintenance start */}
-      <div
-        className={styles.background}
-        style={{
-          // backgroundImage: `url("https://res.cloudinary.com/biandamara/image/upload/v1663393608/Portfolio%20Web/Background/background_egbvyb.jpg")`,
-          backgroundPosition: "center",
-          backgroundSize: "cover",
-          backgroundRepeat: "no-repeat",
-          height: "100vh",
-          width: "100vw",
-        }}
-      >
+      <div className={styles.background}>
         {/* text start */}
         <div className={styles.box}>
           <p>
