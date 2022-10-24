@@ -1,4 +1,5 @@
-import React, { useRef, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
+import { ToastContainer, toast } from "react-toastify";
 import emailjs from "@emailjs/browser";
 import AOS from "aos";
 
@@ -8,28 +9,64 @@ import Footer from "../components/Footer";
 
 // import styles
 import styles from "../assets/css/Contact.module.css";
+import "react-toastify/dist/ReactToastify.css";
 
 function Contact() {
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+
   const form = useRef();
 
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    emailjs
-      .sendForm(
-        "service_k946nxk",
-        "template_7xd9ghr",
-        form.current,
-        "H5nY49c7aP7tp5DwI"
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
+    if (!name || !email || !message) {
+      toast.warn("Please fill out the form!", {
+        position: "top-right",
+        autoClose: 3000,
+        hideProgressBar: true,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "colored",
+      });
+    } else {
+      emailjs
+        .sendForm(
+          "service_k946nxk",
+          "template_7xd9ghr",
+          form.current,
+          "H5nY49c7aP7tp5DwI"
+        )
+        .then(
+          (result) => {
+            toast.success("Your message has been sent!", {
+              position: "top-right",
+              autoClose: 3000,
+              hideProgressBar: true,
+              closeOnClick: true,
+              pauseOnHover: true,
+              draggable: true,
+              progress: undefined,
+              theme: "colored",
+            });
+          },
+          (error) => {
+            toast.error("Your message can't be sent!", {
+              position: "top-right",
+              autoClose: 3000,
+              hideProgressBar: true,
+              closeOnClick: true,
+              pauseOnHover: true,
+              draggable: true,
+              progress: undefined,
+              theme: "colored",
+            });
+          }
+        );
+    }
   };
 
   useEffect(() => {
@@ -104,8 +141,12 @@ function Contact() {
                   data-aos-once={`true`}
                 >
                   <input
+                    name={`name`}
                     type={`text`}
-                    name={`user_name`}
+                    value={name}
+                    onChange={(e) => {
+                      setName(e.target.value);
+                    }}
                     placeholder={`Name`}
                   ></input>
 
@@ -113,8 +154,12 @@ function Contact() {
                   <br />
 
                   <input
+                    name={`email`}
                     type={`email`}
-                    name={`user_email`}
+                    value={email}
+                    onChange={(e) => {
+                      setEmail(e.target.value);
+                    }}
                     placeholder={`E-mail`}
                   ></input>
 
@@ -123,6 +168,11 @@ function Contact() {
 
                   <textarea
                     name={`message`}
+                    type={`text`}
+                    value={message}
+                    onChange={(e) => {
+                      setMessage(e.target.value);
+                    }}
                     placeholder={`Message`}
                     rows={`10`}
                   ></textarea>
@@ -132,8 +182,10 @@ function Contact() {
                   <br />
 
                   <button
+                    className={`${styles.button}`}
                     type={`submit`}
                     value={`send`}
+                    onClick={handleSubmit}
                     data-aos={`fade-left`}
                     data-aos-duration={`1000`}
                     data-aos-delay={`1500`}
@@ -144,6 +196,19 @@ function Contact() {
                 {/* contact form - end */}
               </div>
               {/* contect right 01 - end */}
+
+              <ToastContainer
+                position="top-right"
+                autoClose={3000}
+                hideProgressBar
+                newestOnTop={false}
+                closeOnClick
+                rtl={false}
+                pauseOnFocusLoss
+                draggable
+                pauseOnHover
+                theme="dark"
+              />
 
               <br />
               <br />
