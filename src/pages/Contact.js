@@ -8,8 +8,8 @@ import Navigation from "../components/Navigation";
 import Footer from "../components/Footer";
 
 // import styles
-import styles from "../assets/css/Contact.module.css";
 import "react-toastify/dist/ReactToastify.css";
+import styles from "../assets/css/Contact.module.css";
 
 function Contact() {
   const [name, setName] = useState("");
@@ -140,21 +140,26 @@ function Contact() {
                   data-aos-delay={`1500`}
                   data-aos-once={`true`}
                 >
+                  {/* input name - start */}
                   <input
-                    name={`name`}
+                    id={`from_name`}
+                    name={`from_name`}
                     type={`text`}
                     value={name}
+                    placeholder={`Name`}
                     onChange={(e) => {
                       setName(e.target.value);
                     }}
-                    placeholder={`Name`}
                   ></input>
+                  {/* input name - end */}
 
                   <br />
                   <br />
 
+                  {/* input e-mail - start */}
                   <input
-                    name={`email`}
+                    id={`from_email`}
+                    name={`from_email`}
                     type={`email`}
                     value={email}
                     onChange={(e) => {
@@ -162,11 +167,14 @@ function Contact() {
                     }}
                     placeholder={`E-mail`}
                   ></input>
+                  {/* input e-mail - end */}
 
                   <br />
                   <br />
 
+                  {/* input message - start */}
                   <textarea
+                    id={`message`}
                     name={`message`}
                     type={`text`}
                     value={message}
@@ -176,11 +184,13 @@ function Contact() {
                     placeholder={`Message`}
                     rows={`10`}
                   ></textarea>
+                  {/* input message - end */}
 
                   <br />
                   <br />
                   <br />
 
+                  {/* button submit - start */}
                   <button
                     className={`${styles.button}`}
                     type={`submit`}
@@ -192,6 +202,7 @@ function Contact() {
                   >
                     Submit
                   </button>
+                  {/* button submit - end */}
                 </form>
                 {/* contact form - end */}
               </div>
