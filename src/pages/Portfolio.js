@@ -65,10 +65,7 @@ function Portfolio() {
               <div className={`card-body d-flex justify-content-between`}>
                 <div>Binar Academy - Game Portal Website</div>
                 <div className={`${styles.link}`}>
-                  <a
-                    className={`nav-link disabled`}
-                    href={`https://team2-chapter11-frontend.herokuapp.com/`}
-                  >
+                  <a href={`https://team2-chapter11-frontend.herokuapp.com/`}>
                     Website
                   </a>
                   <a href={`https://github.com/biandamara/binar-challenge-11`}>
