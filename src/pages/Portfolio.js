@@ -44,7 +44,7 @@ function Portfolio() {
                 <div className={`${styles.link}`}>
                   <a
                     className={`nav-link disabled`}
-                    href={`https://www.netlify.com/`}
+                    href={`https://www.rock-paper-scissors-bd.netlify.app/`}
                   >
                     Website
                   </a>
@@ -67,7 +67,7 @@ function Portfolio() {
                 <div className={`${styles.link}`}>
                   <a
                     className={`nav-link disabled`}
-                    href={`https://www.netlify.com/`}
+                    href={`https://team2-chapter11-frontend.herokuapp.com/`}
                   >
                     Website
                   </a>
@@ -90,7 +90,7 @@ function Portfolio() {
                 <div className={`${styles.link}`}>
                   <a
                     className={`nav-link disabled`}
-                    href={`https://www.netlify.com/`}
+                    href={`https://www.mini-store-bd.netlify.com/`}
                   >
                     Website
                   </a>

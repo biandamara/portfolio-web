@@ -89,7 +89,8 @@ function About() {
                   develop my abilities and potential for technological
                   advancements. I'm very interested in new challenges and
                   excited when there is an opportunity to work on a project
-                  around web development.
+                  around web development. Click <a href={`/portfolio`}>here</a>{" "}
+                  to see my portfolio.
                 </p>
                 {/* about me - end */}
 
@@ -319,7 +320,8 @@ function About() {
                     etc. from a whole new perspective and it helps to see things
                     from a different view. From photography, I realized that
                     getting a different view of things means you have a more
-                    open mind to the world.
+                    open mind to the world. Check out my{" "}
+                    <a href={`/gallery`}>Mini Gallery</a>.
                   </p>
                 </div>
                 {/* photography - end */}
