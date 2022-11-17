@@ -67,6 +67,16 @@ function Navigation() {
                 <NavLink
                   className={`nav-link`}
                   style={{ color: "#f6f6f3" }}
+                  to={`/portfolio`}
+                >
+                  Portfolio
+                </NavLink>
+              </li>
+
+              <li>
+                <NavLink
+                  className={`nav-link`}
+                  style={{ color: "#f6f6f3" }}
                   to={`/gallery`}
                 >
                   Gallery
