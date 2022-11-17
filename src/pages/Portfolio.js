@@ -42,10 +42,7 @@ function Portfolio() {
               <div className={`card-body d-flex justify-content-between`}>
                 <div>Binar Academy - Rock Paper Scissors</div>
                 <div className={`${styles.link}`}>
-                  <a
-                    className={`nav-link disabled`}
-                    href={`https://www.rock-paper-scissors-bd.netlify.app/`}
-                  >
+                  <a href={`https://rock-paper-scissors-bd.netlify.app/`}>
                     Website
                   </a>
                   <a href={`https://github.com/biandamara/binar-challenge-4`}>
@@ -87,7 +84,7 @@ function Portfolio() {
                 <div className={`${styles.link}`}>
                   <a
                     className={`nav-link disabled`}
-                    href={`https://www.mini-store-bd.netlify.com/`}
+                    href={`https://mini-store-bd.netlify.com/`}
                   >
                     Website
                   </a>
