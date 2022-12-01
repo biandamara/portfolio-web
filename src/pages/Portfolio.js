@@ -112,6 +112,22 @@ function Portfolio() {
                 </div>
               </div>
             </div>
+
+            <div
+              className={`card ${styles.card}`}
+              data-aos={`fade-left`}
+              data-aos-duration={`1000`}
+              data-aos-delay={`800`}
+              data-aos-once={`true`}
+            >
+              <div className={`card-body d-flex justify-content-between`}>
+                <div>To-do List</div>
+                <div className={`${styles.link}`}>
+                  <a href={`https://todolist-bd.netlify.app`}>Website</a>
+                  <a href={`https://github.com/biandamara/to-do-list`}>Code</a>
+                </div>
+              </div>
+            </div>
             {/* card - end */}
           </div>
         </div>
